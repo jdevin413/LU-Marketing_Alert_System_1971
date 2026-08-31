@@ -49,5 +49,3 @@ jobs:
             git commit -m "Update athletics schedule state"
             git push
           fi
-
-
