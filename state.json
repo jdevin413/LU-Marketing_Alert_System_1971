@@ -2167,8 +2167,10 @@
       "url": "https://libertyflames.com/sports/mens-golf/schedule/text"
     },
     "Men's Lacrosse (Club)": {
-      "failure_count": 3,
-      "last_error": "Schedule table found, but no competition rows were parsed",
+      "events": [],
+      "failure_count": 0,
+      "last_error": "",
+      "schedule_label": "2026-27",
       "url": "https://libertyclubsports.com/sports/mens-lacrosse/schedule/text"
     },
     "Men's Soccer": {
