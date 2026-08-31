@@ -134,6 +134,8 @@ def parse_schedule_html(html: str) -> tuple[str, list[Event]]:
     rows = table.find_all("tr")
     header: list[str] | None = None
     events: list[Event] = []
+    data_rows_seen = 0
+    ignored_noncompetition = 0
 
     for row in rows:
         cells = [clean(c.get_text(" ", strip=True)) for c in row.find_all(["th", "td"])]
@@ -148,6 +150,8 @@ def parse_schedule_html(html: str) -> tuple[str, list[Event]]:
         if header is None:
             continue
 
+        data_rows_seen += 1
+
         # Sidearm's text schedules currently expose these seven fields. If an extra
         # column appears, map by header name; if one is absent, safely default blank.
         values = {header[i]: cells[i] for i in range(min(len(header), len(cells)))}
@@ -156,6 +160,7 @@ def parse_schedule_html(html: str) -> tuple[str, list[Event]]:
         if not opponent or not event_date:
             continue
         if normalized_opponent(opponent) in NON_COMPETITION:
+            ignored_noncompetition += 1
             continue
 
         result = values.get("result", "")
@@ -172,6 +177,11 @@ def parse_schedule_html(html: str) -> tuple[str, list[Event]]:
         events.append(event)
 
     if not events:
+        # A newly published schedule may legitimately contain only tryouts/meetings,
+        # or may have an empty table before competition dates are announced. Treat
+        # those cases as a valid empty baseline instead of a source failure.
+        if data_rows_seen == 0 or ignored_noncompetition > 0:
+            return schedule_label, []
         raise ValueError("Schedule table found, but no competition rows were parsed")
     return schedule_label, events
 
