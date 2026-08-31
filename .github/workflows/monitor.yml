@@ -1,0 +1,75 @@
+
+      - name: Save new baseline
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state.json .heartbeat 2>/dev/null || git add state.json
+          if git diff --cached --quiet; then
+            echo "No state changes to commit."
+          else
+            git commit -m "Update athletics monitor state [skip ci]"
+            git push
+          finame: Liberty Athletics Schedule Monitor
+
+on:
+  schedule:
+    # Every 15 minutes, offset from the top of the hour to reduce GitHub cron congestion.
+    - cron: "7,22,37,52 * * * *"
+    # Monthly heartbeat commit keeps a public repo from going inactive for 60 days.
+    - cron: "13 12 1 * *"
+  workflow_dispatch:
+    inputs:
+      send_test:
+        description: "Send a test ntfy notification"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: liberty-athletics-schedule-monitor
+  cancel-in-progress: true
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+      TEST_NOTIFICATION: ${{ inputs.send_test || 'false' }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Check Liberty schedules
+        run: python monitor.py
+
+      - name: Monthly activity heartbeat
+        if: github.event.schedule == '13 12 1 * *'
+        run: date -u +'%Y-%m-%dT%H:%M:%SZ' > .heartbeat
+
+      - name: Save new baseline
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state.json .heartbeat 2>/dev/null || git add state.json
+          if git diff --cached --quiet; then
+            echo "No state changes to commit."
+          else
+            git commit -m "Update athletics monitor state [skip ci]"
+            git push
+          fi
+
+
