@@ -357,7 +357,7 @@ def load_state() -> dict:
 def save_state(state: dict) -> None:
     state["version"] = 1
     # Intentionally no per-run timestamp: if nothing changed, state.json stays byte-for-byte
-    # identical and GitHub does not create a commit every 15 minutes.
+    # identical and GitHub does not create a commit every 10 minutes.
     STATE_FILE.write_text(json.dumps(state, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
 
@@ -374,6 +374,7 @@ def main() -> int:
             return 2
         send_test(session, topic)
         print("Sent ntfy test notification")
+        return 0
 
     state = load_state()
     state.setdefault("sources", {})
