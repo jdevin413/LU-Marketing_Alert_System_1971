@@ -4027,42 +4027,32 @@
         },
         {
           "at": "Away",
-          "date": "Nov 20 (Fri)",
-          "location": "Lebanon, IL",
+          "date": "Nov 19 (Thu)",
+          "location": "Maryland Heights, MO",
           "opponent": "University of Jamestown",
           "result": "-",
           "status": "",
-          "time": "TBA",
+          "time": "2:15 PM",
+          "tournament": ""
+        },
+        {
+          "at": "Away",
+          "date": "Nov 20 (Fri)",
+          "location": "Maryland Heights, MO",
+          "opponent": "Minot State University",
+          "result": "-",
+          "status": "",
+          "time": "2:30 PM",
           "tournament": ""
         },
         {
           "at": "Away",
           "date": "Nov 21 (Sat)",
-          "location": "St. Louis, MO",
-          "opponent": "Minot State University",
-          "result": "-",
-          "status": "",
-          "time": "TBA",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Nov 22 (Sun)",
-          "location": "St. Louis, MO",
+          "location": "Lebanon, IL",
           "opponent": "Midland University",
           "result": "-",
           "status": "",
-          "time": "TBA",
-          "tournament": ""
-        },
-        {
-          "at": "Home",
-          "date": "Jan 21 (Thu)",
-          "location": "Lynchburg, VA (LaHaye Ice Center)",
-          "opponent": "McKendree University",
-          "result": "-",
-          "status": "",
-          "time": "9:00 PM",
+          "time": "1:30 PM",
           "tournament": ""
         },
         {
@@ -4073,6 +4063,16 @@
           "result": "-",
           "status": "",
           "time": "1:30 PM",
+          "tournament": ""
+        },
+        {
+          "at": "Home",
+          "date": "Jan 23 (Sat)",
+          "location": "Lynchburg, VA (LaHaye Ice Center)",
+          "opponent": "McKendree University",
+          "result": "-",
+          "status": "",
+          "time": "10:30 AM",
           "tournament": ""
         },
         {
