@@ -3986,23 +3986,23 @@
           "tournament": ""
         },
         {
-          "at": "Home",
+          "at": "Away",
           "date": "Oct 29 (Thu)",
-          "location": "Lynchburg, VA (LaHaye Ice Center)",
+          "location": "St. Louis, MO",
           "opponent": "Maryville University",
           "result": "-",
           "status": "",
-          "time": "9:00 PM",
+          "time": "9:30 PM",
           "tournament": ""
         },
         {
-          "at": "Home",
+          "at": "Away",
           "date": "Oct 30 (Fri)",
-          "location": "Lynchburg, VA (LaHaye Ice Center)",
+          "location": "St. Louis, MO",
           "opponent": "Maryville University",
           "result": "-",
           "status": "",
-          "time": "1:30 PM",
+          "time": "4:15 PM",
           "tournament": ""
         },
         {
@@ -4076,23 +4076,23 @@
           "tournament": ""
         },
         {
-          "at": "Away",
+          "at": "Home",
           "date": "Jan 28 (Thu)",
-          "location": "St. Louis, MO",
+          "location": "Lynchburg, VA (LaHaye Ice Center)",
           "opponent": "Maryville University",
           "result": "-",
           "status": "",
-          "time": "9:30 PM",
+          "time": "9:00 PM",
           "tournament": ""
         },
         {
-          "at": "Away",
+          "at": "Home",
           "date": "Jan 29 (Fri)",
-          "location": "St. Louis, MO",
+          "location": "Lynchburg, VA (LaHaye Ice Center)",
           "opponent": "Maryville University",
           "result": "-",
           "status": "",
-          "time": "4:15 PM",
+          "time": "1:30 PM",
           "tournament": ""
         },
         {
