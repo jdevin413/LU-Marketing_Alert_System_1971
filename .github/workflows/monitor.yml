@@ -2,8 +2,18 @@ name: Liberty Athletics Schedule Monitor
 
 on:
   schedule:
+    # Every 10 minutes, offset from the top of the hour.
     - cron: '3,13,23,33,43,53 * * * *'
   workflow_dispatch:
+    inputs:
+      test_mode:
+        description: 'What do you want to test?'
+        required: true
+        default: 'connection'
+        type: choice
+        options:
+          - connection
+          - simulate_delay
 
 permissions:
   contents: write
@@ -30,26 +40,35 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Send manual test notification
-        if: github.event_name == 'workflow_dispatch'
+      - name: Send connection test
+        if: github.event_name == 'workflow_dispatch' && inputs.test_mode == 'connection'
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           TEST_NOTIFICATION: 'true'
+          SIMULATE_DELAY: 'false'
         run: python monitor.py
 
-      - name: Check Liberty schedules
+      - name: Simulate home-game delay
+        if: github.event_name == 'workflow_dispatch' && inputs.test_mode == 'simulate_delay'
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          TEST_NOTIFICATION: 'false'
+          SIMULATE_DELAY: 'true'
+        run: python monitor.py
+
+      - name: Check Liberty schedules and official news
         if: github.event_name == 'schedule'
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           TEST_NOTIFICATION: 'false'
+          SIMULATE_DELAY: 'false'
         run: python monitor.py
 
-      - name: Save updated schedule state
+      - name: Save updated monitor state
         if: github.event_name == 'schedule'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           # Preserve the freshly generated state, then move onto the newest
           # version of the branch before committing it. This prevents stale
           # scheduled/re-run jobs from failing with a non-fast-forward push.
@@ -57,11 +76,10 @@ jobs:
           git fetch origin "${GITHUB_REF_NAME}"
           git reset --hard "origin/${GITHUB_REF_NAME}"
           cp /tmp/liberty-state.json state.json
-
           git add state.json
           if git diff --cached --quiet; then
-            echo "No schedule changes to save."
+            echo "No monitor state changes to save."
           else
-            git commit -m "Update athletics schedule state"
+            git commit -m "Update athletics monitor state"
             git push origin "HEAD:${GITHUB_REF_NAME}"
           fi
