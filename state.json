@@ -1,37 +1,87 @@
 {
+  "news": {
+    "Liberty Athletics News": {
+      "archive_url": "https://libertyflames.com/archives",
+      "initialized": true,
+      "last_error": "",
+      "seen_urls": [
+        "https://libertyflames.com/news/2026/9/17/womens-volleyball-liberty-sweeps-north-alabama-3-0",
+        "https://libertyflames.com/news/2026/9/18/football-lakelsey-johnson-jr-a-home-away-from-home",
+        "https://libertyflames.com/news/2026/9/17/mens-soccer-liberty-opens-socon-play-at-uncg-saturday",
+        "https://libertyflames.com/news/2026/9/17/womens-lacrosse-liberty-debuts-new-turf-field-to-open-fall-season",
+        "https://libertyflames.com/news/2026/9/17/football-game-day-ball-state",
+        "https://libertyflames.com/news/2026/9/17/football-liberty-athletics-and-abich-financial-announce-field-logo-partnership-at-williams-stadium",
+        "https://libertyflames.com/news/2026/9/17/field-hockey-no-13-lady-flames-to-match-up-with-redhawks-mountaineers-in-2-home-games",
+        "https://libertyflames.com/news/2026/9/16/mens-golf-lugiano-named-cusa-mens-golfer-of-the-week",
+        "https://libertyflames.com/news/2026/9/16/cross-country-adidas-xc-challenge-awaits-flames-on-friday",
+        "https://libertyflames.com/news/2026/9/16/liberty-football-show-with-head-coach-jamey-chadwell-returns-on-thursday-sept17",
+        "https://libertyflames.com/news/2026/9/15/mens-golf-liberty-and-lugiano-capture-titles-at-2026-bearcat-invitational",
+        "https://libertyflames.com/news/2026/9/15/mens-tennis-v-liz-to-compete-for-ecuador-in-davis-cup-this-weekend",
+        "https://libertyflames.com/news/2026/9/15/football-press-conference-ball-state",
+        "https://libertyflames.com/news/2026/9/15/field-hockeys-iudicello-earns-big-east-freshman-of-week-award",
+        "https://libertyflames.com/news/2026/9/15/womens-soccer-leja-tabbed-cusa-goalkeeper-of-the-week-for-shutout-performance",
+        "https://libertyflames.com/news/2026/9/15/womens-volleyball-liberty-set-to-host-north-alabama-for-alumni-weekend",
+        "https://libertyflames.com/news/2026/9/15/football-belford-named-to-2026-allstate-afca-good-works-team-and-allstate-wuerffel-trophy-semifinalist",
+        "https://libertyflames.com/news/2026/9/14/mens-golf-flames-set-the-pace-during-day-1-of-bearcat-invitational",
+        "https://libertyflames.com/news/2026/9/14/womens-volleyball-otts-named-cusa-offensive-player-of-the-week",
+        "https://libertyflames.com/news/2026/9/13/field-hockey-liberty-celebrates-senior-day-with-8-0-shutout-win-over-longwood",
+        "https://libertyflames.com/news/2026/9/13/womens-soccer-lady-flames-outlast-old-dominion-2-1-on-senior-day",
+        "https://libertyflames.com/news/2026/9/12/mens-golf-flames-continue-fall-slate-at-bearcat-invitational-on-monday",
+        "https://libertyflames.com/news/2026/9/12/football-liberty-opens-home-slate-with-win-over-gardner-webb",
+        "https://libertyflames.com/news/2026/9/12/mens-soccer-virginia-holds-outlasts-liberty-3-2",
+        "https://libertyflames.com/news/2026/9/12/womens-volleyball-lady-flames-rally-past-fairfield-in-4-sets",
+        "https://libertyflames.com/news/2026/9/11/womens-volleyball-reverse-sweep-highlights-libertys-1-1-day-at-hofstra-invitational",
+        "https://libertyflames.com/news/2026/9/11/field-hockey-no-11-uva-edges-no-13-liberty-2-1-friday-afternoon",
+        "https://libertyflames.com/news/2026/9/11/football-jamari-person-little-details-make-a-big-difference",
+        "https://libertyflames.com/news/2026/9/11/liberty-vs-gardner-webb-football-game-moved-to-noon-kickoff",
+        "https://libertyflames.com/news/2026/9/10/womens-soccer-late-goal-lifts-liberty-past-jmu-1-0",
+        "https://libertyflames.com/news/2026/9/10/football-game-day-gardner-webb",
+        "https://libertyflames.com/news/2026/9/10/mens-soccer-liberty-visits-virginia-saturday"
+      ]
+    },
+    "Liberty Club Sports News": {
+      "archive_url": "https://libertyclubsports.com/archives",
+      "initialized": true,
+      "last_error": "",
+      "seen_urls": [
+        "https://libertyclubsports.com/news/2026/9/17/mens-d1-hockey-di-flames-eager-for-rematch-with-dii-fgcu-in-stiffer-second-week-home-challenge-friday-night",
+        "https://libertyclubsports.com/news/2026/9/16/mens-d2-hockey-new-look-dii-flames-excited-to-build-on-last-seasons-winning-record-with-solid-foundation-for-future",
+        "https://libertyclubsports.com/news/2026/9/16/equestrian-teams-jump-into-fall-season-with-new-faces-and-facility-upgrades",
+        "https://libertyclubsports.com/news/2026/9/13/womens-d1-hockey-lady-flames-triple-up-washington-in-season-opening-sweep-at-the-lic",
+        "https://libertyclubsports.com/news/2026/9/11/mens-d1-hockey-flames-torch-tar-heels-in-action-packed-fan-friendly-season-opener",
+        "https://libertyclubsports.com/news/2026/9/10/mens-d1-hockey-di-flames-to-honor-american-heroes-in-friday-nights-opener-against-unc",
+        "https://libertyclubsports.com/news/2026/9/9/womens-d1-hockey-lady-flames-to-showcase-new-leadership-transfers-in-this-weekends-season-opening-series",
+        "https://libertyclubsports.com/news/2026/9/8/mens-d1-hockey-di-mens-hockey-blessed-with-size-speed-depth-of-leadership",
+        "https://libertyclubsports.com/news/2026/9/4/womens-d1-hockey-five-recruits-two-transfers-rebuild-lady-flames-di-hockey-roster-to-22-players",
+        "https://libertyclubsports.com/news/2026/9/4/mens-d1-hockey-new-theme-nights-in-2026-27-will-add-to-festive-atmosphere-at-di-mens-hockey-games",
+        "https://libertyclubsports.com/news/2026/9/3/general-club-sports-disciple-making-team-challenged-refreshed-on-annual-retreat",
+        "https://libertyclubsports.com/news/2026/9/3/dance-team-lu-dance-debuts-2026-27-routines-at-freshman-kickoff-meet-the-team-events",
+        "https://libertyclubsports.com/news/2026/9/1/taekwondo-team-hosts-self-defense-seminar-for-female-students",
+        "https://libertyclubsports.com/news/2026/9/1/mens-d1-hockey-forward-from-russia-fifth-and-final-recruit-for-flames-di-mens-hockey",
+        "https://libertyclubsports.com/news/2026/8/27/mens-swimming-ncaa-di-transfer-brings-speed-strength-to-mens-swimming-sprints-relays",
+        "https://libertyclubsports.com/news/2026/8/25/mens-lacrosse-alumnus-matt-walker-to-coordinate-flames-defense-recruiting",
+        "https://libertyclubsports.com/news/2026/8/19/mens-volleyball-bohling-moves-family-from-texas-to-take-reins-of-mens-volleyball-program",
+        "https://libertyclubsports.com/news/2026/8/19/mens-wrestling-mens-wrestling-recruits-transfers-will-add-depth-strength-throughout-lineup",
+        "https://libertyclubsports.com/news/2026/8/13/gymnastics-recent-graduates-james-sierra-will-complement-lowe-on-gymnastics-coaching-staff",
+        "https://libertyclubsports.com/news/2026/7/31/taekwondo-assistant-coaches-bring-nursing-acumen-commitment-to-program",
+        "https://libertyclubsports.com/news/2026/7/31/mens-swimming-mens-swimming-maintains-momentum-buoyed-by-strong-incoming-recruiting-class-transfers",
+        "https://libertyclubsports.com/news/2026/7/31/mens-lacrosse-mens-lacrosse-players-to-participate-in-season-long-study-using-performance-tracking-system",
+        "https://libertyclubsports.com/news/2026/7/24/womens-wrestling-wrestling-camp-features-record-number-of-participants-highly-competitive-tournament",
+        "https://libertyclubsports.com/news/2026/7/23/mens-d1-hockey-di-mens-hockey-players-reflect-on-last-season-gear-up-for-action-packed-fall-semester",
+        "https://libertyclubsports.com/news/2026/7/22/lacrosse-camps-attract-players-from-across-us-for-skill-development-fun-and-games",
+        "https://libertyclubsports.com/news/2026/6/25/mens-d1-hockey-hockey-summer-camps-train-young-players-in-the-ways-of-the-lord-sharpening-their-skills-and-faith",
+        "https://libertyclubsports.com/news/2026/6/17/mens-lacrosse-a-dozen-recruits-will-make-immediate-lasting-impact-on-liberty-lacrosse",
+        "https://libertyclubsports.com/news/2026/6/12/founding-figure-skating-coach-returning-to-liberty-to-lead-synchronized-team",
+        "https://libertyclubsports.com/news/2026/6/9/mens-d1-hockey-ncaa-di-transfer-zach-nicolas-will-empower-flames-front-lines",
+        "https://libertyclubsports.com/news/2026/6/8/mens-d1-hockey-di-mens-hockey-schedule-will-test-flames-mettle-against-achas-best",
+        "https://libertyclubsports.com/news/2026/5/28/general-club-sports-student-athletes-raise-bar-once-more-with-3-47-cumulative-gpa-after-spring-semester",
+        "https://libertyclubsports.com/news/2026/5/22/mens-d1-hockey-lamoureux-brothers-representing-team-lebanon-in-iihf-challenger-series"
+      ]
+    }
+  },
   "sources": {
     "Baseball": {
       "events": [
-        {
-          "at": "Away",
-          "date": "Feb 13 (Fri)",
-          "location": "Charleston, S.C.",
-          "opponent": "The Citadel",
-          "result": "W 7-3",
-          "status": "",
-          "time": "4:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Feb 14 (Sat)",
-          "location": "Charleston, S.C.",
-          "opponent": "The Citadel",
-          "result": "L 3-4",
-          "status": "",
-          "time": "5:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Feb 15 (Sun)",
-          "location": "Charleston, S.C.",
-          "opponent": "The Citadel",
-          "result": "W 5-4",
-          "status": "",
-          "time": "11:00 AM ET",
-          "tournament": ""
-        },
         {
           "at": "Home",
           "date": "Feb 20 (Fri)",
@@ -103,16 +153,6 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Mar 3 (Tue)",
-          "location": "High Point, N.C.",
-          "opponent": "High Point",
-          "result": "W 8-0",
-          "status": "",
-          "time": "4:00 PM ET",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Mar 6 (Fri)",
           "location": "Lynchburg, Va. (Worthington Field at Liberty Baseball Stadium)",
@@ -140,16 +180,6 @@
           "result": "W 5-4",
           "status": "",
           "time": "12:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Mar 10 (Tue)",
-          "location": "Greensboro, N.C.",
-          "opponent": "UNCG",
-          "result": "W 12-10",
-          "status": "",
-          "time": "4:00 PM ET",
           "tournament": ""
         },
         {
@@ -183,16 +213,6 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Mar 17 (Tue)",
-          "location": "Winston-Salem, N.C.",
-          "opponent": "No. 24 Wake Forest",
-          "result": "L 0-11",
-          "status": "",
-          "time": "4:00 PM ET",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Mar 18 (Wed)",
           "location": "Lynchburg, Va. (Worthington Field at Liberty Baseball Stadium)",
@@ -200,36 +220,6 @@
           "result": "L 12-14",
           "status": "",
           "time": "4:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Mar 20 (Fri)",
-          "location": "Kennesaw, Ga.",
-          "opponent": "Kennesaw State",
-          "result": "W 2-0",
-          "status": "",
-          "time": "6:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Mar 21 (Sat)",
-          "location": "Kennesaw, Ga.",
-          "opponent": "Kennesaw State",
-          "result": "W 11-5",
-          "status": "",
-          "time": "4:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Mar 22 (Sun)",
-          "location": "Kennesaw, Ga.",
-          "opponent": "Kennesaw State",
-          "result": "L 3-4",
-          "status": "",
-          "time": "1:00 PM ET",
           "tournament": ""
         },
         {
@@ -273,56 +263,6 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Mar 31 (Tue)",
-          "location": "Raleigh, N.C.",
-          "opponent": "NC State",
-          "result": "W 7-5",
-          "status": "",
-          "time": "6:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Apr 2 (Thu)",
-          "location": "Bowling Green, Ky.",
-          "opponent": "Western Kentucky",
-          "result": "W 8-3",
-          "status": "",
-          "time": "7:00 PM ET/6:00 PM CT",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Apr 3 (Fri)",
-          "location": "Bowling Green, Ky.",
-          "opponent": "Western Kentucky",
-          "result": "W 6-2",
-          "status": "",
-          "time": "5:00 PM ET/4:00 PM CT",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Apr 4 (Sat)",
-          "location": "Bowling Green, Ky.",
-          "opponent": "Western Kentucky",
-          "result": "W 6-5",
-          "status": "",
-          "time": "1:00 PM ET/12:00 PM CT",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Apr 7 (Tue)",
-          "location": "Blacksburg, Va.",
-          "opponent": "Virginia Tech",
-          "result": "W 11-4",
-          "status": "",
-          "time": "6:00 PM ET",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Apr 10 (Fri)",
           "location": "Lynchburg, Va. (Worthington Field at Liberty Baseball Stadium)",
@@ -353,61 +293,11 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Apr 14 (Tue)",
-          "location": "Durham, N.C.",
-          "opponent": "Duke",
-          "result": "W 17-7",
-          "status": "",
-          "time": "6:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Apr 17 (Fri)",
-          "location": "Dallas, Texas",
-          "opponent": "Dallas Baptist",
-          "result": "W 17-3",
-          "status": "",
-          "time": "7:35 PM ET/6:35 PM CT",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Apr 18 (Sat)",
-          "location": "Dallas, Texas",
-          "opponent": "Dallas Baptist",
-          "result": "L 6-7",
-          "status": "",
-          "time": "5:45 PM ET/4:45 PM CT",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Apr 19 (Sun)",
-          "location": "Dallas, Texas",
-          "opponent": "Dallas Baptist",
-          "result": "W 9-8",
-          "status": "",
-          "time": "1:05 PM ET/12:05 CT",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Apr 21 (Tue)",
           "location": "Lynchburg, Va. (Worthington Field at Liberty Baseball Stadium)",
           "opponent": "Duke",
           "result": "W 13-10",
-          "status": "",
-          "time": "6:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Apr 22 (Wed)",
-          "location": "Charlottesville, Va.",
-          "opponent": "No. 10 Virginia",
-          "result": "L 4-5",
           "status": "",
           "time": "6:00 PM ET",
           "tournament": ""
@@ -450,36 +340,6 @@
           "result": "W 12-2",
           "status": "",
           "time": "6:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "May 1 (Fri)",
-          "location": "Las Cruces, N.M.",
-          "opponent": "New Mexico State",
-          "result": "W 15-4",
-          "status": "",
-          "time": "8:00 PM ET/6:00 PM MT",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "May 2 (Sat)",
-          "location": "Las Cruces, N.M.",
-          "opponent": "New Mexico State",
-          "result": "W 9-7",
-          "status": "",
-          "time": "7:45 PM ET/5:45 PM MT",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "May 3 (Sun)",
-          "location": "Las Cruces, N.M.",
-          "opponent": "New Mexico State",
-          "result": "W 7-4",
-          "status": "",
-          "time": "1:00 PM ET/11:00 AM MT",
           "tournament": ""
         },
         {
@@ -531,116 +391,6 @@
           "status": "",
           "time": "6:00 PM ET",
           "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "May 14 (Thu)",
-          "location": "Murfreesboro, Tenn.",
-          "opponent": "Middle Tennessee",
-          "result": "L 1-8",
-          "status": "",
-          "time": "7:00 PM ET/6:00 PM CT",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "May 15 (Fri)",
-          "location": "Murfreesboro, Tenn.",
-          "opponent": "Middle Tennessee",
-          "result": "W 10-2",
-          "status": "",
-          "time": "4:00 PM ET/3:00 PM CT",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "May 16 (Sat)",
-          "location": "Murfreesboro, Tenn.",
-          "opponent": "Middle Tennessee",
-          "result": "W 8-7",
-          "status": "",
-          "time": "2:00 PM ET/1:00 PM CT",
-          "tournament": ""
-        },
-        {
-          "at": "Neutral",
-          "date": "May 21 (Thu)",
-          "location": "Kennesaw, Ga.",
-          "opponent": "No. 8 seed Sam Houston",
-          "result": "W 10-4",
-          "status": "",
-          "time": "10:00 AM ET",
-          "tournament": "CUSA Baseball Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "May 22 (Fri)",
-          "location": "Kennesaw, Ga.",
-          "opponent": "No. 5 seed Louisiana Tech",
-          "result": "W 6-0",
-          "status": "",
-          "time": "9:00 AM ET",
-          "tournament": "CUSA Baseball Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "May 23 (Sat)",
-          "location": "",
-          "opponent": "No. 3 seed Missouri State",
-          "result": "W 7-5",
-          "status": "",
-          "time": "6:50 PM ET",
-          "tournament": "CUSA Baseball Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "May 24 (Sun)",
-          "location": "Kennesaw, Ga.",
-          "opponent": "No. 1 seed Jacksonville State",
-          "result": "L 0-10",
-          "status": "",
-          "time": "12:00 PM ET",
-          "tournament": "CUSA Baseball Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "May 29 (Fri)",
-          "location": "",
-          "opponent": "Boston College",
-          "result": "W 4-3",
-          "status": "",
-          "time": "12:00 PM ET",
-          "tournament": "NCAA Athens, Ga. Regional"
-        },
-        {
-          "at": "Away",
-          "date": "May 30 (Sat)",
-          "location": "Athens, Ga.",
-          "opponent": "No. 3 Georgia",
-          "result": "L 2-6",
-          "status": "",
-          "time": "5:00 PM ET",
-          "tournament": "NCAA Athens, Ga. Regional"
-        },
-        {
-          "at": "Neutral",
-          "date": "May 31 (Sun)",
-          "location": "",
-          "opponent": "Boston College",
-          "result": "W 8-3",
-          "status": "",
-          "time": "12:00 PM ET",
-          "tournament": "NCAA Athens, Ga. Regional"
-        },
-        {
-          "at": "Away",
-          "date": "May 31 (Sun)",
-          "location": "Athens, Ga.",
-          "opponent": "No 3 Georgia",
-          "result": "L 1-6",
-          "status": "",
-          "time": "5:00 PM",
-          "tournament": ""
         }
       ],
       "failure_count": 0,
@@ -649,98 +399,7 @@
       "url": "https://libertyflames.com/sports/baseball/schedule/text"
     },
     "Cross Country (M/W)": {
-      "events": [
-        {
-          "at": "Away",
-          "date": "Sep 4 (Fri)",
-          "location": "Spartanburg, S.C.",
-          "opponent": "Eye Opener",
-          "result": "N -",
-          "status": "",
-          "time": "7:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Sep 11 (Fri)",
-          "location": "Winchester, Va.",
-          "opponent": "SU Twilight Open",
-          "result": "N -",
-          "status": "",
-          "time": "6:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Sep 18 (Fri)",
-          "location": "Cary, N.C.",
-          "opponent": "adidas XC Challenge",
-          "result": "-",
-          "status": "",
-          "time": "5:50 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Oct 2 (Fri)",
-          "location": "Bethlehem, Pa.",
-          "opponent": "Paul Short Run",
-          "result": "-",
-          "status": "",
-          "time": "11:00 AM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Oct 16 (Fri)",
-          "location": "Terre Haute, Ind.",
-          "opponent": "Under Armour Pre-National Invitational",
-          "result": "-",
-          "status": "",
-          "time": "10:00 AM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Oct 17 (Sat)",
-          "location": "Salem, Va.",
-          "opponent": "Roanoke XC Invitational",
-          "result": "-",
-          "status": "",
-          "time": "10:00 AM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Oct 31 (Sat)",
-          "location": "Huntsville, Ala.",
-          "opponent": "Conference USA Championships",
-          "result": "-",
-          "status": "",
-          "time": "10:00 AM ET/9:00 AM CT",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Nov 13 (Fri)",
-          "location": "Spartanburg, S.C.",
-          "opponent": "NCAA Division I Southeast Regional Championships",
-          "result": "-",
-          "status": "",
-          "time": "10:00 AM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Nov 21 (Sat)",
-          "location": "Terre Haute, Ind.",
-          "opponent": "NCAA Division I Cross Country Championships",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": ""
-        }
-      ],
+      "events": [],
       "failure_count": 0,
       "last_error": "",
       "schedule_label": "2026",
@@ -748,46 +407,6 @@
     },
     "Field Hockey": {
       "events": [
-        {
-          "at": "Away",
-          "date": "Aug 28 (Fri)",
-          "location": "Orono, Maine",
-          "opponent": "Maine",
-          "result": "W 5-0",
-          "status": "",
-          "time": "12:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Neutral",
-          "date": "Aug 29 (Sat)",
-          "location": "Orono, Maine",
-          "opponent": "No. 15 UMass",
-          "result": "L 2-3",
-          "status": "",
-          "time": "12:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Sep 4 (Fri)",
-          "location": "Philadelphia, Pa.",
-          "opponent": "Saint Joseph's",
-          "result": "W 5-1",
-          "status": "",
-          "time": "3:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Sep 6 (Sun)",
-          "location": "Harrisonburg, Va.",
-          "opponent": "James Madison",
-          "result": "W 2-1",
-          "status": "",
-          "time": "12:00 PM ET",
-          "tournament": ""
-        },
         {
           "at": "Home",
           "date": "Sep 11 (Fri)",
@@ -829,16 +448,6 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Sep 25 (Fri)",
-          "location": "Storrs, Conn.",
-          "opponent": "Connecticut",
-          "result": "-",
-          "status": "",
-          "time": "6:00 PM ET",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Oct 2 (Fri)",
           "location": "Lynchburg, Va.",
@@ -846,16 +455,6 @@
           "result": "-",
           "status": "",
           "time": "3:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Oct 4 (Sun)",
-          "location": "Richmond, Va.",
-          "opponent": "Richmond",
-          "result": "-",
-          "status": "",
-          "time": "12:00 PM ET",
           "tournament": ""
         },
         {
@@ -879,16 +478,6 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Oct 16 (Fri)",
-          "location": "Providence, R.I.",
-          "opponent": "Providence",
-          "result": "-",
-          "status": "",
-          "time": "2:00 PM ET",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Oct 23 (Fri)",
           "location": "Lynchburg, Va. (Liberty Field Hockey Field)",
@@ -907,36 +496,6 @@
           "status": "",
           "time": "1:00 PM ET",
           "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Oct 30 (Fri)",
-          "location": "Ursinus, Pa.",
-          "opponent": "Villanova",
-          "result": "-",
-          "status": "",
-          "time": "12:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Neutral",
-          "date": "Nov 6 (Fri)",
-          "location": "Philadelphia, Pa.",
-          "opponent": "TBA",
-          "result": "-",
-          "status": "",
-          "time": "TBA",
-          "tournament": "BIG EAST Field Hockey Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "Nov 8 (Sun)",
-          "location": "Philadelphia, Pa.",
-          "opponent": "TBA",
-          "result": "-",
-          "status": "",
-          "time": "TBA",
-          "tournament": "BIG EAST Field Hockey Championship"
         }
       ],
       "failure_count": 0,
@@ -946,16 +505,6 @@
     },
     "Football": {
       "events": [
-        {
-          "at": "Away",
-          "date": "Sep 5 (Sat)",
-          "location": "Harrisonburg, Va.",
-          "opponent": "James Madison",
-          "result": "L 13-20",
-          "status": "",
-          "time": "12:00 PM ET",
-          "tournament": ""
-        },
         {
           "at": "Home",
           "date": "Sep 12 (Sat)",
@@ -977,40 +526,10 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Sep 24 (Thu)",
-          "location": "Conway, S.C.",
-          "opponent": "Coastal Carolina",
-          "result": "-",
-          "status": "",
-          "time": "7:30 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Oct 2 (Fri)",
-          "location": "Newark, Del.",
-          "opponent": "Delaware",
-          "result": "-",
-          "status": "",
-          "time": "7:00 PM ET",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Oct 8 (Thu)",
           "location": "Lynchburg, Va. (Williams Stadium)",
           "opponent": "Sam Houston",
-          "result": "-",
-          "status": "",
-          "time": "7:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Oct 22 (Thu)",
-          "location": "Kennesaw, Ga.",
-          "opponent": "Kennesaw State",
           "result": "-",
           "status": "",
           "time": "7:00 PM ET",
@@ -1024,16 +543,6 @@
           "result": "-",
           "status": "",
           "time": "3:30 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Nov 7 (Sat)",
-          "location": "Las Cruces, N.M.",
-          "opponent": "New Mexico State",
-          "result": "-",
-          "status": "",
-          "time": "5:00 PM ET/3:00 PM MT",
           "tournament": ""
         },
         {
@@ -1055,26 +564,6 @@
           "status": "",
           "time": "1:00 PM ET",
           "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Nov 28 (Sat)",
-          "location": "Springfield, Mo.",
-          "opponent": "Missouri State",
-          "result": "-",
-          "status": "",
-          "time": "2:00 PM ET/1:00 PM CT",
-          "tournament": ""
-        },
-        {
-          "at": "Neutral",
-          "date": "Dec 4 (Fri)",
-          "location": "TBA",
-          "opponent": "Conference USA",
-          "result": "-",
-          "status": "",
-          "time": "7:00 PM ET",
-          "tournament": "CUSA Football Championship"
         }
       ],
       "failure_count": 0,
@@ -1084,16 +573,6 @@
     },
     "Men's Basketball": {
       "events": [
-        {
-          "at": "Neutral",
-          "date": "Nov 2 (Mon)",
-          "location": "Rock Hill, S.C.",
-          "opponent": "High Point",
-          "result": "-",
-          "status": "",
-          "time": "12:00 AM ET",
-          "tournament": "Field of 68 Showcase"
-        },
         {
           "at": "Home",
           "date": "Nov 6 (Fri)",
@@ -1113,66 +592,6 @@
           "status": "",
           "time": "",
           "tournament": ""
-        },
-        {
-          "at": "Neutral",
-          "date": "Nov 17 (Tue)",
-          "location": "Charlotte, N.C.",
-          "opponent": "Southern Illinois",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": ""
-        },
-        {
-          "at": "Neutral",
-          "date": "Nov 20 (Fri)",
-          "location": "White Sulphur Springs, W.Va.",
-          "opponent": "Rhode Island",
-          "result": "-",
-          "status": "",
-          "time": "4:30 PM ET",
-          "tournament": "Greenbrier Tip-Off"
-        },
-        {
-          "at": "Neutral",
-          "date": "Nov 22 (Sun)",
-          "location": "White Sulphur Springs, W.Va.",
-          "opponent": "Richmond",
-          "result": "-",
-          "status": "",
-          "time": "4:30 PM ET",
-          "tournament": "Greenbrier Tip-Off"
-        },
-        {
-          "at": "Neutral",
-          "date": "Nov 25 (Wed)",
-          "location": "Wilmington, N.C.",
-          "opponent": "Princeton",
-          "result": "-",
-          "status": "",
-          "time": "TBA",
-          "tournament": "Live Oak Bank Holiday Classic"
-        },
-        {
-          "at": "Neutral",
-          "date": "Nov 27 (Fri)",
-          "location": "Wilmington, N.C.",
-          "opponent": "St. Thomas",
-          "result": "-",
-          "status": "",
-          "time": "TBA",
-          "tournament": "Live Oak Bank Holiday Classic"
-        },
-        {
-          "at": "Away",
-          "date": "Nov 28 (Sat)",
-          "location": "Wilmington, NC",
-          "opponent": "UNCW",
-          "result": "-",
-          "status": "",
-          "time": "TBA",
-          "tournament": "Live Oak Bank Holiday Classic"
         },
         {
           "at": "Home",
@@ -1235,26 +654,6 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Jan 7 (Thu)",
-          "location": "Miami, Fla.",
-          "opponent": "FIU",
-          "result": "-",
-          "status": "",
-          "time": "TBA",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Jan 9 (Sat)",
-          "location": "Springfield, Mo.",
-          "opponent": "Missouri State",
-          "result": "-",
-          "status": "",
-          "time": "TBA",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Jan 14 (Thu)",
           "location": "Lynchburg, Va. (Liberty Arena)",
@@ -1269,26 +668,6 @@
           "date": "Jan 16 (Sat)",
           "location": "Lynchburg, Va. (Liberty Arena)",
           "opponent": "Western Kentucky",
-          "result": "-",
-          "status": "",
-          "time": "TBA",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Jan 21 (Thu)",
-          "location": "Jacksonville, Ala.",
-          "opponent": "Jacksonville State",
-          "result": "-",
-          "status": "",
-          "time": "TBA",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Jan 23 (Sat)",
-          "location": "Kennesaw, Ga.",
-          "opponent": "Kennesaw State",
           "result": "-",
           "status": "",
           "time": "TBA",
@@ -1335,26 +714,6 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Feb 11 (Thu)",
-          "location": "Bowling Green, Ky.",
-          "opponent": "Western Kentucky",
-          "result": "-",
-          "status": "",
-          "time": "TBA",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Feb 13 (Sat)",
-          "location": "Murfreesboro, Tenn.",
-          "opponent": "Middle Tennessee",
-          "result": "-",
-          "status": "",
-          "time": "TBA",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Feb 18 (Thu)",
           "location": "Lynchburg, Va. (Liberty Arena)",
@@ -1373,86 +732,6 @@
           "status": "",
           "time": "TBA",
           "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Feb 25 (Thu)",
-          "location": "Las Cruces, N.M.",
-          "opponent": "New Mexico State",
-          "result": "-",
-          "status": "",
-          "time": "TBA",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Feb 27 (Sat)",
-          "location": "Huntsville, Texas",
-          "opponent": "Sam Houston",
-          "result": "-",
-          "status": "",
-          "time": "TBA",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Mar 6 (Sat)",
-          "location": "Newark, Del",
-          "opponent": "Delaware",
-          "result": "-",
-          "status": "",
-          "time": "TBA",
-          "tournament": ""
-        },
-        {
-          "at": "Neutral",
-          "date": "Mar 9 (Tue)",
-          "location": "Huntsville, Ala.",
-          "opponent": "Conference USA Men's Basketball Championship",
-          "result": "-",
-          "status": "",
-          "time": "TBA",
-          "tournament": "Conference USA Men's Basketball Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "Mar 10 (Wed)",
-          "location": "Huntsville, Ala.",
-          "opponent": "Conference USA Men's Basketball Championship",
-          "result": "-",
-          "status": "",
-          "time": "TBA",
-          "tournament": "Conference USA Men's Basketball Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "Mar 11 (Thu)",
-          "location": "Huntsville, Ala.",
-          "opponent": "Conference USA Men's Basketball Championship",
-          "result": "-",
-          "status": "",
-          "time": "TBA",
-          "tournament": "Conference USA Men's Basketball Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "Mar 12 (Fri)",
-          "location": "Huntsville, Ala.",
-          "opponent": "Conference USA Men's Basketball Championship",
-          "result": "-",
-          "status": "",
-          "time": "TBA",
-          "tournament": "Conference USA Men's Basketball Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "Mar 13 (Sat)",
-          "location": "Huntsville, Ala.",
-          "opponent": "Conference USA Men's Basketball Championship",
-          "result": "-",
-          "status": "",
-          "time": "TBA",
-          "tournament": "Conference USA Men's Basketball Championship"
         }
       ],
       "failure_count": 0,
@@ -1480,16 +759,6 @@
           "result": "-",
           "status": "",
           "time": "7:00 PM",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Sep 25 (Fri)",
-          "location": "Raleigh, NC",
-          "opponent": "NC State University",
-          "result": "-",
-          "status": "",
-          "time": "7:30 PM",
           "tournament": ""
         },
         {
@@ -1543,26 +812,6 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Oct 15 (Thu)",
-          "location": "Adrian, MI",
-          "opponent": "Adrian College",
-          "result": "-",
-          "status": "",
-          "time": "7:30 PM",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Oct 16 (Fri)",
-          "location": "Adrian, MI",
-          "opponent": "Adrian College",
-          "result": "-",
-          "status": "",
-          "time": "6:15 PM",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Oct 23 (Fri)",
           "location": "(LaHaye Ice Center)",
@@ -1613,26 +862,6 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Nov 19 (Thu)",
-          "location": "Niagara Falls, NY",
-          "opponent": "Niagara University",
-          "result": "-",
-          "status": "",
-          "time": "2:00 PM",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Nov 20 (Fri)",
-          "location": "Niagara Falls, NY",
-          "opponent": "Niagara University",
-          "result": "-",
-          "status": "",
-          "time": "2:00 PM",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Dec 4 (Fri)",
           "location": "(LaHaye Ice Center)",
@@ -1653,46 +882,6 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Jan 9 (Sat)",
-          "location": "Charlotte, NC",
-          "opponent": "NC State University",
-          "result": "-",
-          "status": "",
-          "time": "7:00 PM",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Jan 14 (Thu)",
-          "location": "Springfield, MO",
-          "opponent": "Drury University",
-          "result": "-",
-          "status": "",
-          "time": "7:15 PM",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Jan 15 (Fri)",
-          "location": "St. Louis, MO",
-          "opponent": "Maryville University",
-          "result": "-",
-          "status": "",
-          "time": "6:00 PM",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Jan 16 (Sat)",
-          "location": "St. Louis, MO",
-          "opponent": "Maryville University",
-          "result": "-",
-          "status": "",
-          "time": "1:30 PM",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Jan 22 (Fri)",
           "location": "(LaHaye Ice Center)",
@@ -1710,26 +899,6 @@
           "result": "-",
           "status": "",
           "time": "2:00 PM",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Jan 29 (Fri)",
-          "location": "Athens, OH",
-          "opponent": "Ohio University",
-          "result": "-",
-          "status": "",
-          "time": "7:00 PM",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Jan 30 (Sat)",
-          "location": "Athens, OH",
-          "opponent": "Ohio University",
-          "result": "-",
-          "status": "",
-          "time": "5:00 PM",
           "tournament": ""
         },
         {
@@ -1799,368 +968,7 @@
       "url": "https://libertyclubsports.com/sports/mens-ice-hockey/schedule/text"
     },
     "Men's Golf": {
-      "events": [
-        {
-          "at": "Away",
-          "date": "Aug 31 (Mon)",
-          "location": "Knoxville, Tenn.",
-          "opponent": "Visit Knoxville Collegiate",
-          "result": "N -",
-          "status": "",
-          "time": "8:30 AM ET",
-          "tournament": "Visit Knoxville Collegiate"
-        },
-        {
-          "at": "Away",
-          "date": "Sep 1 (Tue)",
-          "location": "Knoxville, Tenn.",
-          "opponent": "Visit Knoxville Collegiate",
-          "result": "N -",
-          "status": "",
-          "time": "8:20 AM ET",
-          "tournament": "Visit Knoxville Collegiate"
-        },
-        {
-          "at": "Away",
-          "date": "Sep 14 (Mon)",
-          "location": "Cincinnati, Ohio",
-          "opponent": "Bearcat Invitational",
-          "result": "N -",
-          "status": "",
-          "time": "9:00 AM ET",
-          "tournament": "Bearcat Invitational"
-        },
-        {
-          "at": "Away",
-          "date": "Sep 15 (Tue)",
-          "location": "Cincinnati, Ohio",
-          "opponent": "Bearcat Invitational",
-          "result": "N -",
-          "status": "",
-          "time": "9:00 AM ET",
-          "tournament": "Bearcat Invitational"
-        },
-        {
-          "at": "Away",
-          "date": "Sep 28 (Mon)",
-          "location": "West Columbia, S.C.",
-          "opponent": "Bryan Bros Collegiate",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Bryan Bros Collegiate"
-        },
-        {
-          "at": "Away",
-          "date": "Sep 29 (Tue)",
-          "location": "West Columbia, S.C.",
-          "opponent": "Bryan Bros Collegiate",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Bryan Bros Collegiate"
-        },
-        {
-          "at": "Away",
-          "date": "Oct 18 (Sun)",
-          "location": "Vero Beach, Fla.",
-          "opponent": "Quail Valley Collegiate Invitational",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Quail Valley Collegiate Invitational"
-        },
-        {
-          "at": "Away",
-          "date": "Oct 19 (Mon)",
-          "location": "Vero Beach, Fla.",
-          "opponent": "Quail Valley Collegiate Invitational",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Quail Valley Collegiate Invitational"
-        },
-        {
-          "at": "Away",
-          "date": "Feb 1 (Mon)",
-          "location": "Atlantic Beach, Fla.",
-          "opponent": "Sea Best Invitational",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Sea Best Invitational"
-        },
-        {
-          "at": "Away",
-          "date": "Feb 2 (Tue)",
-          "location": "Atlantic Beach, Fla.",
-          "opponent": "Sea Best Invitational",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Sea Best Invitational"
-        },
-        {
-          "at": "Away",
-          "date": "Feb 13 (Sat)",
-          "location": "Gainesville, Fla.",
-          "opponent": "Gator Invitational",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Gator Invitational"
-        },
-        {
-          "at": "Away",
-          "date": "Feb 14 (Sun)",
-          "location": "Gainesville, Fla.",
-          "opponent": "Gator Invitational",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Gator Invitational"
-        },
-        {
-          "at": "Away",
-          "date": "Mar 6 (Sat)",
-          "location": "Ponte Vedra Beach, Fla.",
-          "opponent": "The Hayt",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "The Hayt"
-        },
-        {
-          "at": "Away",
-          "date": "Mar 7 (Sun)",
-          "location": "Ponte Vedra Beach, Fla.",
-          "opponent": "The Hayt",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "The Hayt"
-        },
-        {
-          "at": "Away",
-          "date": "Mar 8 (Mon)",
-          "location": "Ponte Vedra Beach, Fla.",
-          "opponent": "The Hayt",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "The Hayt"
-        },
-        {
-          "at": "Away",
-          "date": "Mar 14 (Sun)",
-          "location": "Myrtle Beach, S.C.",
-          "opponent": "Michael A. Marino Classic",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Michael A. Marino Classic"
-        },
-        {
-          "at": "Away",
-          "date": "Mar 15 (Mon)",
-          "location": "Myrtle Beach, S.C.",
-          "opponent": "Michael A. Marino Classic",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Michael A. Marino Classic"
-        },
-        {
-          "at": "Away",
-          "date": "Mar 16 (Tue)",
-          "location": "Myrtle Beach, S.C.",
-          "opponent": "Michael A. Marino Classic",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Michael A. Marino Classic"
-        },
-        {
-          "at": "Away",
-          "date": "Mar 28 (Sun)",
-          "location": "Awendaw, S.C.",
-          "opponent": "Bull Bay Rodeo Intercollegiate",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Bull Bay Rodeo Intercollegiate"
-        },
-        {
-          "at": "Away",
-          "date": "Mar 29 (Mon)",
-          "location": "Awendaw, S.C.",
-          "opponent": "Bull Bay Rodeo Intercollegiate",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Bull Bay Rodeo Intercollegiate"
-        },
-        {
-          "at": "Away",
-          "date": "Mar 30 (Tue)",
-          "location": "Awendaw, S.C.",
-          "opponent": "Bull Bay Rodeo Intercollegiate",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Bull Bay Rodeo Intercollegiate"
-        },
-        {
-          "at": "Away",
-          "date": "Apr 12 (Mon)",
-          "location": "Charlottesville, Va.",
-          "opponent": "Lewis Chitengwa Memorial",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Lewis Chitengwa Memorial"
-        },
-        {
-          "at": "Away",
-          "date": "Apr 13 (Tue)",
-          "location": "Charlottesville, Va.",
-          "opponent": "Lewis Chitengwa Memorial",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Lewis Chitengwa Memorial"
-        },
-        {
-          "at": "Neutral",
-          "date": "Apr 26 (Mon)",
-          "location": "Pearland, Texas",
-          "opponent": "CUSA Men\u2019s Golf Championship",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "CUSA Men\u2019s Golf Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "Apr 27 (Tue)",
-          "location": "Pearland, Texas",
-          "opponent": "CUSA Men\u2019s Golf Championship",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "CUSA Men\u2019s Golf Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "Apr 28 (Wed)",
-          "location": "Pearland, Texas",
-          "opponent": "CUSA Men\u2019s Golf Championship",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "CUSA Men\u2019s Golf Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "Apr 29 (Thu)",
-          "location": "Pearland, Texas",
-          "opponent": "CUSA Men\u2019s Golf Championship",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "CUSA Men\u2019s Golf Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "May 17 (Mon)",
-          "location": "TBA",
-          "opponent": "NCAA Men\u2019s Golf Regionals",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "NCAA Men\u2019s Golf Regionals"
-        },
-        {
-          "at": "Neutral",
-          "date": "May 18 (Tue)",
-          "location": "TBA",
-          "opponent": "NCAA Men\u2019s Golf Regionals",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "NCAA Men\u2019s Golf Regionals"
-        },
-        {
-          "at": "Neutral",
-          "date": "May 19 (Wed)",
-          "location": "TBA",
-          "opponent": "NCAA Men\u2019s Golf Regionals",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "NCAA Men\u2019s Golf Regionals"
-        },
-        {
-          "at": "Neutral",
-          "date": "May 28 (Fri)",
-          "location": "Carlsbad, Calif.",
-          "opponent": "NCAA Men\u2019s Golf Championship",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "NCAA Men's Golf Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "May 29 (Sat)",
-          "location": "Carlsbad, Calif.",
-          "opponent": "NCAA Men\u2019s Golf Championship",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "NCAA Men's Golf Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "May 30 (Sun)",
-          "location": "Carlsbad, Calif.",
-          "opponent": "NCAA Men\u2019s Golf Championship",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "NCAA Men's Golf Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "May 31 (Mon)",
-          "location": "Carlsbad, Calif.",
-          "opponent": "NCAA Men\u2019s Golf Championship",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "NCAA Men's Golf Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "Jun 1 (Tue)",
-          "location": "Carlsbad, Calif.",
-          "opponent": "NCAA Men\u2019s Golf Championship",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "NCAA Men's Golf Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "Jun 2 (Wed)",
-          "location": "Carlsbad, Calif.",
-          "opponent": "NCAA Men\u2019s Golf Championship",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "NCAA Men's Golf Championship"
-        }
-      ],
+      "events": [],
       "failure_count": 0,
       "last_error": "",
       "schedule_label": "2026-27",
@@ -2176,26 +984,6 @@
     "Men's Soccer": {
       "events": [
         {
-          "at": "Away",
-          "date": "Aug 20 (Thu)",
-          "location": "San Diego, Calif.",
-          "opponent": "San Diego State",
-          "result": "W 2-1",
-          "status": "",
-          "time": "10:00 PM ET/7:00 PM PT",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Aug 23 (Sun)",
-          "location": "San Diego, Calif.",
-          "opponent": "No. 18 San Diego",
-          "result": "L 1-3",
-          "status": "",
-          "time": "8:00 PM ET/5:00 PM PT",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Aug 28 (Fri)",
           "location": "Lynchburg, Va. (Osborne Stadium)",
@@ -2203,56 +991,6 @@
           "result": "L 2-3",
           "status": "",
           "time": "6:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Sep 2 (Wed)",
-          "location": "Statesboro, Ga.",
-          "opponent": "Georgia Southern",
-          "result": "T 1-1",
-          "status": "",
-          "time": "7:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Sep 6 (Sun)",
-          "location": "Washington, D.C.",
-          "opponent": "American",
-          "result": "W 2-1",
-          "status": "",
-          "time": "4:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Sep 12 (Sat)",
-          "location": "Charlottesville, Va.",
-          "opponent": "Virginia",
-          "result": "L 2-3",
-          "status": "",
-          "time": "1:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Sep 19 (Sat)",
-          "location": "Greensboro, N.C.",
-          "opponent": "UNCG",
-          "result": "-",
-          "status": "",
-          "time": "7:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Sep 22 (Tue)",
-          "location": "Harrisonburg, Va.",
-          "opponent": "James Madison",
-          "result": "-",
-          "status": "",
-          "time": "7:00 PM ET",
           "tournament": ""
         },
         {
@@ -2273,36 +1011,6 @@
           "result": "-",
           "status": "",
           "time": "1:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Oct 10 (Sat)",
-          "location": "Johnson City, Tenn.",
-          "opponent": "ETSU",
-          "result": "-",
-          "status": "",
-          "time": "6:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Oct 17 (Sat)",
-          "location": "Spartanburg, S.C.",
-          "opponent": "Wofford",
-          "result": "-",
-          "status": "",
-          "time": "6:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Oct 20 (Tue)",
-          "location": "South Orange, N.J.",
-          "opponent": "Seton Hall",
-          "result": "-",
-          "status": "",
-          "time": "7:00 PM ET",
           "tournament": ""
         },
         {
@@ -2334,70 +1042,10 @@
     "Men's Tennis": {
       "events": [
         {
-          "at": "Neutral",
-          "date": "Sep 19 (Sat)",
-          "location": "Tulsa, Okla.",
-          "opponent": "ITA All-American Championships",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": ""
-        },
-        {
-          "at": "Neutral",
-          "date": "Sep 21 (Mon)",
-          "location": "Columbia, S.C.",
-          "opponent": "ITF Futures SC",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Sep 25 (Fri)",
           "location": "Lynchburg, Va. (Liberty Tennis Complex)",
           "opponent": "Liberty Dual",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": ""
-        },
-        {
-          "at": "Neutral",
-          "date": "Oct 8 (Thu)",
-          "location": "Blacksburg, Va.",
-          "opponent": "ITA Atlantic Regional",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": ""
-        },
-        {
-          "at": "Neutral",
-          "date": "Nov 2 (Mon)",
-          "location": "Hilton Head, S.C.",
-          "opponent": "ITF Futures SC",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": ""
-        },
-        {
-          "at": "Neutral",
-          "date": "Nov 5 (Thu)",
-          "location": "Charlottesville, Va.",
-          "opponent": "ITA Sectionals",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": ""
-        },
-        {
-          "at": "Neutral",
-          "date": "Nov 11 (Wed)",
-          "location": "Orlando, Fla.",
-          "opponent": "NCAA Singles and Doubles Championships",
           "result": "-",
           "status": "",
           "time": "",
@@ -2411,116 +1059,6 @@
     },
     "Softball": {
       "events": [
-        {
-          "at": "Neutral",
-          "date": "Feb 6 (Fri)",
-          "location": "Clearwater, Fla.",
-          "opponent": "No. 4 Tennessee",
-          "result": "L 1-6",
-          "status": "",
-          "time": "4:00 PM ET",
-          "tournament": "NFCA Division I Leadoff Classic"
-        },
-        {
-          "at": "Neutral",
-          "date": "Feb 6 (Fri)",
-          "location": "Clearwater, Fla.",
-          "opponent": "No. 9 Clemson",
-          "result": "L 4-9",
-          "status": "",
-          "time": "7:00 PM ET",
-          "tournament": "NFCA Division I Leadoff Classic"
-        },
-        {
-          "at": "Neutral",
-          "date": "Feb 7 (Sat)",
-          "location": "Clearwater, Fla.",
-          "opponent": "Missouri",
-          "result": "L 2-13",
-          "status": "",
-          "time": "1:00 PM ET",
-          "tournament": "NFCA Division I Leadoff Classic"
-        },
-        {
-          "at": "Neutral",
-          "date": "Feb 7 (Sat)",
-          "location": "Clearwater, Fla.",
-          "opponent": "No. 5 Oregon",
-          "result": "L 2-10",
-          "status": "",
-          "time": "4:00 PM ET",
-          "tournament": "NFCA Division I Leadoff Classic"
-        },
-        {
-          "at": "Neutral",
-          "date": "Feb 8 (Sun)",
-          "location": "Clearwater, Fla.",
-          "opponent": "Notre Dame",
-          "result": "L 1-5",
-          "status": "",
-          "time": "9:30 AM ET",
-          "tournament": "NFCA Division I Leadoff Classic"
-        },
-        {
-          "at": "Away",
-          "date": "Feb 10 (Tue)",
-          "location": "Tallahassee, Fla.",
-          "opponent": "No. 5 Florida State",
-          "result": "L 0-8",
-          "status": "",
-          "time": "6:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Neutral",
-          "date": "Feb 13 (Fri)",
-          "location": "Tuscaloosa, Ala.",
-          "opponent": "Georgia Southern",
-          "result": "W 5-3",
-          "status": "",
-          "time": "2:30 PM ET/1:30 PM CT",
-          "tournament": "Bama Bash"
-        },
-        {
-          "at": "Away",
-          "date": "Feb 13 (Fri)",
-          "location": "Tuscaloosa, Ala.",
-          "opponent": "No. 8 Alabama",
-          "result": "L 3-6",
-          "status": "",
-          "time": "7:30 PM ET/6:30 PM CT",
-          "tournament": "Bama Bash"
-        },
-        {
-          "at": "Away",
-          "date": "Feb 14 (Sat)",
-          "location": "Tuscaloosa, Ala.",
-          "opponent": "No. 8 Alabama",
-          "result": "L 0-8",
-          "status": "",
-          "time": "12:00 PM ET/11:00 AM CT",
-          "tournament": "Bama Bash"
-        },
-        {
-          "at": "Neutral",
-          "date": "Feb 14 (Sat)",
-          "location": "Tuscaloosa, Ala.",
-          "opponent": "Georgia Southern",
-          "result": "W 6-1",
-          "status": "",
-          "time": "5:00 PM ET/4:00 PM CT",
-          "tournament": "Bama Bash"
-        },
-        {
-          "at": "Neutral",
-          "date": "Feb 15 (Sun)",
-          "location": "Tuscaloosa, Ala.",
-          "opponent": "Purdue",
-          "result": "N -",
-          "status": "",
-          "time": "11:00 AM ET/10:00 AM CT",
-          "tournament": "Bama Bash"
-        },
         {
           "at": "Home",
           "date": "Feb 20 (Fri)",
@@ -2560,16 +1098,6 @@
           "status": "",
           "time": "4:30 PM ET",
           "tournament": "Liberty Softball Classic"
-        },
-        {
-          "at": "Neutral",
-          "date": "Feb 22 (Sun)",
-          "location": "Charlottesville, Va.",
-          "opponent": "Ohio State",
-          "result": "N -",
-          "status": "",
-          "time": "11:00 AM ET",
-          "tournament": "Mizuno Classic"
         },
         {
           "at": "Home",
@@ -2652,86 +1180,6 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Mar 10 (Tue)",
-          "location": "Harrisonburg, Va.",
-          "opponent": "James Madison",
-          "result": "W 9-8",
-          "status": "",
-          "time": "4:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Mar 13 (Fri)",
-          "location": "Murfreesboro, Tenn.",
-          "opponent": "Middle Tennessee",
-          "result": "W 10-0",
-          "status": "",
-          "time": "7:00 PM ET/6:00 PM CT",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Mar 14 (Sat)",
-          "location": "Murfreesboro, Tenn.",
-          "opponent": "Middle Tennessee",
-          "result": "W 9-0",
-          "status": "",
-          "time": "5:00 PM ET/4:00 PM CT",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Mar 15 (Sun)",
-          "location": "Murfreesboro, Tenn.",
-          "opponent": "Middle Tennessee",
-          "result": "W 8-6",
-          "status": "",
-          "time": "1:00 PM ET/12:00 PM CT",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Mar 19 (Thu)",
-          "location": "El Paso, Texas",
-          "opponent": "UTEP",
-          "result": "W 8-1",
-          "status": "",
-          "time": "8:00 PM ET/6:00 PM MT",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Mar 20 (Fri)",
-          "location": "El Paso, Texas",
-          "opponent": "UTEP",
-          "result": "W 9-1",
-          "status": "",
-          "time": "8:00 PM ET/6:00 PM MT",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Mar 21 (Sat)",
-          "location": "El Paso, Texas",
-          "opponent": "UTEP",
-          "result": "W 11-3",
-          "status": "",
-          "time": "1:00 PM ET/11:00 AM MT",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Mar 25 (Wed)",
-          "location": "Charlottesville, Va.",
-          "opponent": "No. 12 Virginia",
-          "result": "L 1-2",
-          "status": "",
-          "time": "8:00 PM ET",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Mar 27 (Fri)",
           "location": "Lynchburg, Va. (Kamphuis Field at Liberty Softball Stadium)",
@@ -2769,36 +1217,6 @@
           "result": "L 6-11",
           "status": "",
           "time": "6:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Apr 2 (Thu)",
-          "location": "Springfield, Mo.",
-          "opponent": "Missouri State",
-          "result": "L 0-2",
-          "status": "",
-          "time": "7:00 PM ET/6:00 PM CT",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Apr 3 (Fri)",
-          "location": "Springfield, Mo.",
-          "opponent": "Missouri State",
-          "result": "W 7-1",
-          "status": "",
-          "time": "3:00 PM ET/2:00 PM CT",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Apr 3 (Fri)",
-          "location": "Springfield, Mo.",
-          "opponent": "Missouri State",
-          "result": "W 8-0",
-          "status": "",
-          "time": "6:00 PM ET/5:00 PM CT",
           "tournament": ""
         },
         {
@@ -2852,46 +1270,6 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Apr 17 (Fri)",
-          "location": "Miami, Fla.",
-          "opponent": "FIU",
-          "result": "W 7-2",
-          "status": "",
-          "time": "6:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Apr 18 (Sat)",
-          "location": "Miami, Fla.",
-          "opponent": "FIU",
-          "result": "L 4-10",
-          "status": "",
-          "time": "4:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Apr 19 (Sun)",
-          "location": "Miami, Fla.",
-          "opponent": "FIU",
-          "result": "W 6-5",
-          "status": "",
-          "time": "11:00 AM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Apr 22 (Wed)",
-          "location": "Blacksburg, Va.",
-          "opponent": "No. 13 Virginia Tech",
-          "result": "W 10-9",
-          "status": "",
-          "time": "6:00 PM ET",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Apr 24 (Fri)",
           "location": "Lynchburg, Va. (Kamphuis Field at Liberty Softball Stadium)",
@@ -2930,76 +1308,6 @@
           "status": "",
           "time": "5:00 PM ET",
           "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Apr 30 (Thu)",
-          "location": "Kennesaw, Ga.",
-          "opponent": "Kennesaw State",
-          "result": "W 8-2",
-          "status": "",
-          "time": "6:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "May 1 (Fri)",
-          "location": "Kennesaw, Ga.",
-          "opponent": "Kennesaw State",
-          "result": "W 14-0",
-          "status": "",
-          "time": "5:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "May 2 (Sat)",
-          "location": "Kennesaw, Ga.",
-          "opponent": "Kennesaw State",
-          "result": "W 10-3",
-          "status": "",
-          "time": "12:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Neutral",
-          "date": "May 6 (Wed)",
-          "location": "Newark, Del.",
-          "opponent": "No. 7 Seed Louisiana Tech",
-          "result": "W 9-0",
-          "status": "",
-          "time": "7:30 PM ET",
-          "tournament": "Conference USA Softball Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "May 7 (Thu)",
-          "location": "Newark, Del.",
-          "opponent": "No. 2 Seed Western Kentucky",
-          "result": "W 3-0",
-          "status": "",
-          "time": "2:30 PM ET",
-          "tournament": "Conference USA Softball Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "May 8 (Fri)",
-          "location": "Newark, Del.",
-          "opponent": "No. 1 Seed Jacksonville State",
-          "result": "W 7-2",
-          "status": "",
-          "time": "12:00 PM ET",
-          "tournament": "Conference USA Softball Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "May 9 (Sat)",
-          "location": "Newark, Del.",
-          "opponent": "No. 1 Seed Jacksonville State",
-          "result": "L 4-7",
-          "status": "",
-          "time": "12:00 PM ET",
-          "tournament": "Conference USA Softball Championship"
         }
       ],
       "failure_count": 0,
@@ -3024,56 +1332,6 @@
           "date": "Dec 4 (Fri)",
           "location": "Lynchburg, Va. (Liberty Indoor Track Complex)",
           "opponent": "Liberty Kickoff",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Dec 4 (Fri)",
-          "location": "Boston, Mass.",
-          "opponent": "Sharon Colyear-Danville Season Opener",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Dec 5 (Sat)",
-          "location": "Boston, Mass.",
-          "opponent": "Sharon Colyear-Danville Season Opener",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Jan 8 (Fri)",
-          "location": "Lynchburg, Va. (Liberty Indoor Track Complex)",
-          "opponent": "The Burg Open",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Jan 15 (Fri)",
-          "location": "Blacksburg, Va.",
-          "opponent": "Virginia Tech Invitational",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Jan 16 (Sat)",
-          "location": "Blacksburg, Va.",
-          "opponent": "Virginia Tech Invitational",
           "result": "-",
           "status": "",
           "time": "",
@@ -3120,26 +1378,6 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Feb 12 (Fri)",
-          "location": "Boston, Mass.",
-          "opponent": "David Hemery Valentine Invitational",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Feb 12 (Fri)",
-          "location": "Clemson, S.C.",
-          "opponent": "Tiger Paw Invitational",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Feb 12 (Fri)",
           "location": "Lynchburg, Va. (Liberty Indoor Track Complex)",
@@ -3150,30 +1388,10 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Feb 13 (Sat)",
-          "location": "Boston, Mass.",
-          "opponent": "David Hemery Valentine Invitational",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Feb 13 (Sat)",
           "location": "Lynchburg, Va. (Liberty Indoor Track Complex)",
           "opponent": "Darius Dixon Memorial Invitational",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Feb 13 (Sat)",
-          "location": "Clemson, S.C.",
-          "opponent": "Tiger Paw Invitational",
           "result": "-",
           "status": "",
           "time": "",
@@ -3198,26 +1416,6 @@
           "status": "",
           "time": "",
           "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Mar 12 (Fri)",
-          "location": "Fayetteville, Ark.",
-          "opponent": "NCAA Division I Indoor Track Championships",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Mar 13 (Sat)",
-          "location": "Fayetteville, Ark.",
-          "opponent": "NCAA Division I Indoor Track Championships",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": ""
         }
       ],
       "failure_count": 0,
@@ -3238,46 +1436,6 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Nov 7 (Sat)",
-          "location": "Greenville, N.C.",
-          "opponent": "East Carolina",
-          "result": "-",
-          "status": "",
-          "time": "5:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Nov 11 (Wed)",
-          "location": "Raleigh, N.C.",
-          "opponent": "NC State",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Nov 17 (Tue)",
-          "location": "Greensboro, N.C.",
-          "opponent": "North Carolina A&T",
-          "result": "-",
-          "status": "",
-          "time": "7:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Nov 19 (Thu)",
-          "location": "Elon, N.C.",
-          "opponent": "Elon",
-          "result": "-",
-          "status": "",
-          "time": "11:00 AM ET",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Nov 22 (Sun)",
           "location": "Lynchburg, Va. (Liberty Arena)",
@@ -3286,26 +1444,6 @@
           "status": "",
           "time": "2:00 PM ET",
           "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Nov 28 (Sat)",
-          "location": "Bethlehem, Pa.",
-          "opponent": "Lehigh",
-          "result": "-",
-          "status": "",
-          "time": "12:00 PM ET",
-          "tournament": "Christmas City Classic"
-        },
-        {
-          "at": "Neutral",
-          "date": "Nov 29 (Sun)",
-          "location": "Bethlehem, Pa.",
-          "opponent": "Harvard/Pittsburgh",
-          "result": "-",
-          "status": "",
-          "time": "12:00 or 2:30 PM ET",
-          "tournament": "Christmas City Classic"
         },
         {
           "at": "Home",
@@ -3328,16 +1466,6 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Dec 13 (Sun)",
-          "location": "Richmond, Va.",
-          "opponent": "Richmond",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Dec 16 (Wed)",
           "location": "Lynchburg, Va. (Liberty Arena)",
@@ -3345,36 +1473,6 @@
           "result": "-",
           "status": "",
           "time": "7:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Neutral",
-          "date": "Dec 20 (Sun)",
-          "location": "Philadelphia, Pa.",
-          "opponent": "Washington State",
-          "result": "-",
-          "status": "",
-          "time": "2:00 PM ET",
-          "tournament": "Hawk Classic"
-        },
-        {
-          "at": "Neutral",
-          "date": "Dec 21 (Mon)",
-          "location": "Philadelphia, Pa.",
-          "opponent": "Holy Cross/Saint Joseph's",
-          "result": "-",
-          "status": "",
-          "time": "11:00 AM or 1:00 PM ET",
-          "tournament": "Hawk Classic"
-        },
-        {
-          "at": "Away",
-          "date": "Jan 2 (Sat)",
-          "location": "Newark, Del.",
-          "opponent": "Delaware",
-          "result": "-",
-          "status": "",
-          "time": "2:00 PM ET",
           "tournament": ""
         },
         {
@@ -3398,26 +1496,6 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Jan 14 (Thu)",
-          "location": "Murfreesboro, Tenn.",
-          "opponent": "Middle Tennessee",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Jan 16 (Sat)",
-          "location": "Bowling Green, Ky.",
-          "opponent": "Western Kentucky",
-          "result": "-",
-          "status": "",
-          "time": "3:00 PM ET/2:00 PM CT",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Jan 21 (Thu)",
           "location": "Lynchburg, Va. (Liberty Arena)",
@@ -3438,46 +1516,6 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Jan 28 (Thu)",
-          "location": "Huntsville, Texas",
-          "opponent": "Sam Houston",
-          "result": "-",
-          "status": "",
-          "time": "7:30 PM ET/6:30 PM CT",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Jan 30 (Sat)",
-          "location": "Las Cruces, N.M.",
-          "opponent": "New Mexico State",
-          "result": "-",
-          "status": "",
-          "time": "3:00 PM ET/1:00 PM MT",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Feb 4 (Thu)",
-          "location": "Springfield, Mo.",
-          "opponent": "Missouri State",
-          "result": "-",
-          "status": "",
-          "time": "7:30 PM ET/6:30 PM CT",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Feb 6 (Sat)",
-          "location": "Miami, Fla.",
-          "opponent": "FIU",
-          "result": "-",
-          "status": "",
-          "time": "1:00 PM ET",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Feb 11 (Thu)",
           "location": "Lynchburg, Va. (Liberty Arena)",
@@ -3495,26 +1533,6 @@
           "result": "-",
           "status": "",
           "time": "2:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Feb 18 (Thu)",
-          "location": "Kennesaw, Ga.",
-          "opponent": "Kennesaw State",
-          "result": "-",
-          "status": "",
-          "time": "6:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Feb 20 (Sat)",
-          "location": "Jacksonville, Ala.",
-          "opponent": "Jacksonville State",
-          "result": "-",
-          "status": "",
-          "time": "3:00 PM ET/2:00 PM CT",
           "tournament": ""
         },
         {
@@ -3546,310 +1564,12 @@
           "status": "",
           "time": "2:00 PM ET",
           "tournament": ""
-        },
-        {
-          "at": "Neutral",
-          "date": "Mar 9 (Tue)",
-          "location": "Huntsville, Ala.",
-          "opponent": "Conference USA Women's Basketball Championship",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Conference USA Women's Basketball Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "Mar 10 (Wed)",
-          "location": "Huntsville, Ala.",
-          "opponent": "Conference USA Women's Basketball Championship",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Conference USA Women's Basketball Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "Mar 11 (Thu)",
-          "location": "Huntsville, Ala.",
-          "opponent": "Conference USA Women's Basketball Championship",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Conference USA Women's Basketball Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "Mar 12 (Fri)",
-          "location": "Huntsville, Ala.",
-          "opponent": "Conference USA Women's Basketball Championship",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Conference USA Women's Basketball Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "Mar 13 (Sat)",
-          "location": "Huntsville, Ala.",
-          "opponent": "Conference USA Women's Basketball Championship",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Conference USA Women's Basketball Championship"
         }
       ],
       "failure_count": 0,
       "last_error": "",
       "schedule_label": "2026-27",
       "url": "https://libertyflames.com/sports/womens-basketball/schedule/text"
-    },
-    "Women's D1 Hockey (Club)": {
-      "events": [
-        {
-          "at": "Home",
-          "date": "Sep 12 (Sat)",
-          "location": "Lynchburg, VA (LaHaye Ice Center)",
-          "opponent": "Washington Pride",
-          "result": "W 3-2",
-          "status": "",
-          "time": "9:00 PM",
-          "tournament": ""
-        },
-        {
-          "at": "Home",
-          "date": "Sep 13 (Sun)",
-          "location": "Lynchburg, VA (LaHaye Ice Center)",
-          "opponent": "Washington Pride",
-          "result": "W 6-2",
-          "status": "",
-          "time": "10:45 AM",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Oct 8 (Thu)",
-          "location": "Amherst, MA",
-          "opponent": "University of Massachusetts",
-          "result": "-",
-          "status": "",
-          "time": "6:00 PM",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Oct 9 (Fri)",
-          "location": "Amherst, MA",
-          "opponent": "University of Massachusetts",
-          "result": "-",
-          "status": "",
-          "time": "6:00 PM",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Oct 10 (Sat)",
-          "location": "Kingston, RI",
-          "opponent": "University of Rhode Island",
-          "result": "-",
-          "status": "",
-          "time": "11:00 AM",
-          "tournament": ""
-        },
-        {
-          "at": "Home",
-          "date": "Oct 16 (Fri)",
-          "location": "Lynchburg, VA (LaHaye Ice Center)",
-          "opponent": "University of Michigan",
-          "result": "-",
-          "status": "",
-          "time": "6:30 PM",
-          "tournament": ""
-        },
-        {
-          "at": "Home",
-          "date": "Oct 17 (Sat)",
-          "location": "Lynchburg, VA (LaHaye Ice Center)",
-          "opponent": "University of Michigan",
-          "result": "-",
-          "status": "",
-          "time": "1:30 PM",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Oct 23 (Fri)",
-          "location": "Adrian, MI",
-          "opponent": "Adrian College",
-          "result": "-",
-          "status": "",
-          "time": "4:00 PM",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Oct 24 (Sat)",
-          "location": "Adrian, MI",
-          "opponent": "Adrian College",
-          "result": "-",
-          "status": "",
-          "time": "11:00 AM",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Oct 29 (Thu)",
-          "location": "St. Louis, MO",
-          "opponent": "Maryville University",
-          "result": "-",
-          "status": "",
-          "time": "9:30 PM",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Oct 30 (Fri)",
-          "location": "St. Louis, MO",
-          "opponent": "Maryville University",
-          "result": "-",
-          "status": "",
-          "time": "4:15 PM",
-          "tournament": ""
-        },
-        {
-          "at": "Home",
-          "date": "Nov 12 (Thu)",
-          "location": "Lynchburg, VA (LaHaye Ice Center)",
-          "opponent": "Niagara University",
-          "result": "-",
-          "status": "",
-          "time": "9:00 PM",
-          "tournament": ""
-        },
-        {
-          "at": "Home",
-          "date": "Nov 13 (Fri)",
-          "location": "Lynchburg, VA (LaHaye Ice Center)",
-          "opponent": "Niagara University",
-          "result": "-",
-          "status": "",
-          "time": "1:30 PM",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Nov 19 (Thu)",
-          "location": "Maryland Heights, MO",
-          "opponent": "University of Jamestown",
-          "result": "-",
-          "status": "",
-          "time": "2:15 PM",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Nov 20 (Fri)",
-          "location": "Maryland Heights, MO",
-          "opponent": "Minot State University",
-          "result": "-",
-          "status": "",
-          "time": "2:30 PM",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Nov 21 (Sat)",
-          "location": "Lebanon, IL",
-          "opponent": "Midland University",
-          "result": "-",
-          "status": "",
-          "time": "1:30 PM",
-          "tournament": ""
-        },
-        {
-          "at": "Home",
-          "date": "Jan 22 (Fri)",
-          "location": "Lynchburg, VA (LaHaye Ice Center)",
-          "opponent": "McKendree University",
-          "result": "-",
-          "status": "",
-          "time": "1:30 PM",
-          "tournament": ""
-        },
-        {
-          "at": "Home",
-          "date": "Jan 23 (Sat)",
-          "location": "Lynchburg, VA (LaHaye Ice Center)",
-          "opponent": "McKendree University",
-          "result": "-",
-          "status": "",
-          "time": "10:30 AM",
-          "tournament": ""
-        },
-        {
-          "at": "Home",
-          "date": "Jan 28 (Thu)",
-          "location": "Lynchburg, VA (LaHaye Ice Center)",
-          "opponent": "Maryville University",
-          "result": "-",
-          "status": "",
-          "time": "9:00 PM",
-          "tournament": ""
-        },
-        {
-          "at": "Home",
-          "date": "Jan 29 (Fri)",
-          "location": "Lynchburg, VA (LaHaye Ice Center)",
-          "opponent": "Maryville University",
-          "result": "-",
-          "status": "",
-          "time": "1:30 PM",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Feb 5 (Fri)",
-          "location": "Niagara Falls, NY",
-          "opponent": "Niagara University",
-          "result": "-",
-          "status": "",
-          "time": "4:30 PM",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Feb 6 (Sat)",
-          "location": "Niagara Falls, NY",
-          "opponent": "Niagara University",
-          "result": "-",
-          "status": "",
-          "time": "1:00 PM",
-          "tournament": ""
-        },
-        {
-          "at": "Home",
-          "date": "Feb 12 (Fri)",
-          "location": "Lynchburg, VA (LaHaye Ice Center)",
-          "opponent": "Adrian College",
-          "result": "-",
-          "status": "",
-          "time": "6:30 PM",
-          "tournament": ""
-        },
-        {
-          "at": "Home",
-          "date": "Feb 13 (Sat)",
-          "location": "Lynchburg, VA (LaHaye Ice Center)",
-          "opponent": "Adrian College",
-          "result": "-",
-          "status": "",
-          "time": "1:30 PM",
-          "tournament": ""
-        }
-      ],
-      "failure_count": 0,
-      "last_error": "",
-      "schedule_label": "2026-27",
-      "url": "https://libertyclubsports.com/sports/womens-ice-hockey/schedule/text"
     },
     "Women's Lacrosse": {
       "events": [
@@ -3894,16 +1614,6 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Mar 4 (Wed)",
-          "location": "Farmville, Va.",
-          "opponent": "Longwood",
-          "result": "W 16-4",
-          "status": "",
-          "time": "5:00 PM ET",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Mar 11 (Wed)",
           "location": "Lynchburg, Va. (Liberty Lacrosse Field)",
@@ -3911,36 +1621,6 @@
           "result": "L 4-16",
           "status": "",
           "time": "4:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Mar 14 (Sat)",
-          "location": "High Point, N.C.",
-          "opponent": "High Point",
-          "result": "W 11-10",
-          "status": "",
-          "time": "4:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Mar 19 (Thu)",
-          "location": "St. Charles, Mo.",
-          "opponent": "Lindenwood",
-          "result": "W 19-8",
-          "status": "",
-          "time": "1:00 PM ET/12:00 PM CT",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Mar 21 (Sat)",
-          "location": "Clarksville, Tenn.",
-          "opponent": "Austin Peay",
-          "result": "W 24-7",
-          "status": "",
-          "time": "11:30 AM ET/10:30 AM CT",
           "tournament": ""
         },
         {
@@ -3964,16 +1644,6 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Apr 2 (Thu)",
-          "location": "Tampa, Fla.",
-          "opponent": "USF",
-          "result": "L 8-9",
-          "status": "",
-          "time": "7:30 PM ET",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Apr 6 (Mon)",
           "location": "Lynchburg, Va. (Liberty Lacrosse Field)",
@@ -3994,26 +1664,6 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Apr 16 (Thu)",
-          "location": "Conway, S.C.",
-          "opponent": "Coastal Carolina",
-          "result": "W 10-4",
-          "status": "",
-          "time": "1:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Apr 18 (Sat)",
-          "location": "Charlotte, N.C.",
-          "opponent": "Queens",
-          "result": "W 19-9",
-          "status": "",
-          "time": "1:00 PM ET",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Apr 22 (Wed)",
           "location": "Lynchburg, Va. (Liberty Lacrosse Field)",
@@ -4022,26 +1672,6 @@
           "status": "",
           "time": "2:00 PM ET",
           "tournament": ""
-        },
-        {
-          "at": "Neutral",
-          "date": "Apr 28 (Tue)",
-          "location": "Jacksonville, Fla.",
-          "opponent": "No. 6 seed Kennesaw State",
-          "result": "W 16-9",
-          "status": "",
-          "time": "6:00 PM ET",
-          "tournament": "ASUN Women's Lacrosse Championship"
-        },
-        {
-          "at": "Away",
-          "date": "Apr 30 (Thu)",
-          "location": "Jacksonville, Fla.",
-          "opponent": "No. 2 seed Jacksonville",
-          "result": "L 3-17",
-          "status": "",
-          "time": "6:00 PM ET",
-          "tournament": "ASUN Women's Lacrosse Championship"
         }
       ],
       "failure_count": 0,
@@ -4062,46 +1692,6 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Aug 16 (Sun)",
-          "location": "Charlottesville, Va.",
-          "opponent": "No. 11 Virginia",
-          "result": "L 0-2",
-          "status": "",
-          "time": "5:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Aug 20 (Thu)",
-          "location": "Blacksburg, Va.",
-          "opponent": "Virginia Tech",
-          "result": "T 2-2",
-          "status": "",
-          "time": "7:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Aug 23 (Sun)",
-          "location": "Richmond, Va.",
-          "opponent": "VCU",
-          "result": "W 1-0",
-          "status": "",
-          "time": "1:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Aug 27 (Thu)",
-          "location": "Pittsburgh, Pa.",
-          "opponent": "Pitt",
-          "result": "L 0-1",
-          "status": "",
-          "time": "7:00 PM ET",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Aug 30 (Sun)",
           "location": "Lynchburg, Va. (Osborne Stadium)",
@@ -4109,16 +1699,6 @@
           "result": "W 2-0",
           "status": "",
           "time": "1:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Sep 3 (Thu)",
-          "location": "Williamsburg, Va.",
-          "opponent": "William & Mary",
-          "result": "W 2-0",
-          "status": "",
-          "time": "7:00 PM ET",
           "tournament": ""
         },
         {
@@ -4162,26 +1742,6 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Oct 1 (Thu)",
-          "location": "Murfreesboro, Tenn.",
-          "opponent": "Middle Tennessee",
-          "result": "-",
-          "status": "",
-          "time": "8:00 PM ET/7:00 PM CT",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Oct 4 (Sun)",
-          "location": "Las Cruces, N.M.",
-          "opponent": "New Mexico State",
-          "result": "-",
-          "status": "",
-          "time": "3:00 PM ET/1:00 PM MT",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Oct 11 (Sun)",
           "location": "Lynchburg, Va. (Osborne Stadium)",
@@ -4189,16 +1749,6 @@
           "result": "-",
           "status": "",
           "time": "1:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Oct 17 (Sat)",
-          "location": "Kennesaw, Ga.",
-          "opponent": "Kennesaw State",
-          "result": "-",
-          "status": "",
-          "time": "6:00 PM ET",
           "tournament": ""
         },
         {
@@ -4212,16 +1762,6 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Oct 25 (Sun)",
-          "location": "Huntsville, Texas",
-          "opponent": "Sam Houston",
-          "result": "-",
-          "status": "",
-          "time": "2:00 PM ET/1:00 PM CT",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Nov 1 (Sun)",
           "location": "Lynchburg, Va. (Osborne Stadium)",
@@ -4230,46 +1770,6 @@
           "status": "",
           "time": "1:00 PM ET",
           "tournament": ""
-        },
-        {
-          "at": "Neutral",
-          "date": "Nov 8 (Sun)",
-          "location": "Newark, Del.",
-          "opponent": "CUSA Championship Quarterfinal",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Conference USA Women's Soccer Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "Nov 10 (Tue)",
-          "location": "Newark, Del.",
-          "opponent": "CUSA Championship Semifinal",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Conference USA Women's Soccer Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "Nov 13 (Fri)",
-          "location": "Newark, Del.",
-          "opponent": "CUSA Championship Final",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Conference USA Women's Soccer Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "Nov 20 (Fri)",
-          "location": "",
-          "opponent": "NCAA Championship First Round",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "NCAA Women's Soccer Tournament"
         }
       ],
       "failure_count": 0,
@@ -4287,36 +1787,6 @@
           "result": "-",
           "status": "",
           "time": "5:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Oct 2 (Fri)",
-          "location": "Christiansburg, Va.",
-          "opponent": "Virginia Tech Tri Meet",
-          "result": "-",
-          "status": "",
-          "time": "5:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Oct 3 (Sat)",
-          "location": "Christiansburg, Va.",
-          "opponent": "Virginia Tech",
-          "result": "-",
-          "status": "",
-          "time": "10:00 AM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Neutral",
-          "date": "Oct 3 (Sat)",
-          "location": "Christiansburg, Va.",
-          "opponent": "Penn State",
-          "result": "-",
-          "status": "",
-          "time": "10:00 AM ET",
           "tournament": ""
         },
         {
@@ -4350,46 +1820,6 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Oct 23 (Fri)",
-          "location": "Miami, Fla.",
-          "opponent": "Dual-A-Pool-Ooza",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Dual-A-Pool-Ooza"
-        },
-        {
-          "at": "Away",
-          "date": "Oct 24 (Sat)",
-          "location": "Miami, Fla.",
-          "opponent": "FIU",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Dual-A-Pool-Ooza"
-        },
-        {
-          "at": "Neutral",
-          "date": "Oct 24 (Sat)",
-          "location": "Miami, Fla.",
-          "opponent": "Miami (Fla.)",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Dual-A-Pool-Ooza"
-        },
-        {
-          "at": "Neutral",
-          "date": "Oct 24 (Sat)",
-          "location": "Miami, Fla.",
-          "opponent": "Vanderbilt",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Dual-A-Pool-Ooza"
-        },
-        {
           "at": "Home",
           "date": "Nov 20 (Fri)",
           "location": "Lynchburg, Va. (Liberty Natatorium)",
@@ -4418,96 +1848,6 @@
           "status": "",
           "time": "",
           "tournament": "TYR '85 Invite"
-        },
-        {
-          "at": "Neutral",
-          "date": "Dec 9 (Wed)",
-          "location": "Midland, Texas",
-          "opponent": "USA Diving Winter National Championships",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "USA Diving Winter National Championships"
-        },
-        {
-          "at": "Neutral",
-          "date": "Dec 10 (Thu)",
-          "location": "Midland, Texas",
-          "opponent": "USA Diving Winter National Championships",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "USA Diving Winter National Championships"
-        },
-        {
-          "at": "Neutral",
-          "date": "Dec 11 (Fri)",
-          "location": "Midland, Texas",
-          "opponent": "USA Diving Winter National Championships",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "USA Diving Winter National Championships"
-        },
-        {
-          "at": "Neutral",
-          "date": "Dec 12 (Sat)",
-          "location": "Midland, Texas",
-          "opponent": "USA Diving Winter National Championships",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "USA Diving Winter National Championships"
-        },
-        {
-          "at": "Neutral",
-          "date": "Dec 13 (Sun)",
-          "location": "Midland, Texas",
-          "opponent": "USA Diving Winter National Championships",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "USA Diving Winter National Championships"
-        },
-        {
-          "at": "Neutral",
-          "date": "Dec 14 (Mon)",
-          "location": "Midland, Texas",
-          "opponent": "USA Diving Winter National Championships",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "USA Diving Winter National Championships"
-        },
-        {
-          "at": "Neutral",
-          "date": "Dec 15 (Tue)",
-          "location": "Midland, Texas",
-          "opponent": "USA Diving Winter National Championships",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "USA Diving Winter National Championships"
-        },
-        {
-          "at": "Away",
-          "date": "Jan 15 (Fri)",
-          "location": "Greenville, N.C.",
-          "opponent": "East Carolina",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Jan 16 (Sat)",
-          "location": "Greenville, N.C.",
-          "opponent": "East Carolina",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": ""
         },
         {
           "at": "Home",
@@ -4568,76 +1908,6 @@
           "status": "",
           "time": "",
           "tournament": "American Conference Swimming & Diving Championships"
-        },
-        {
-          "at": "Neutral",
-          "date": "Mar 8 (Mon)",
-          "location": "",
-          "opponent": "NCAA Division I Zone A Diving Championships",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "NCAA Division I Zone Diving Championships"
-        },
-        {
-          "at": "Neutral",
-          "date": "Mar 9 (Tue)",
-          "location": "",
-          "opponent": "NCAA Division I Zone A Diving Championships",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "NCAA Division I Zone Diving Championships"
-        },
-        {
-          "at": "Neutral",
-          "date": "Mar 10 (Wed)",
-          "location": "",
-          "opponent": "NCAA Division I Zone A Diving Championships",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "NCAA Division I Zone Diving Championships"
-        },
-        {
-          "at": "Neutral",
-          "date": "Mar 17 (Wed)",
-          "location": "Austin, Texas",
-          "opponent": "NCAA Division I Swimming & Diving Championships",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "NCAA Division I Swimming & Diving Championships"
-        },
-        {
-          "at": "Neutral",
-          "date": "Mar 18 (Thu)",
-          "location": "Austin, Texas",
-          "opponent": "NCAA Division I Swimming & Diving Championships",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "NCAA Division I Swimming & Diving Championships"
-        },
-        {
-          "at": "Neutral",
-          "date": "Mar 19 (Fri)",
-          "location": "Austin, Texas",
-          "opponent": "NCAA Division I Swimming & Diving Championships",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "NCAA Division I Swimming & Diving Championships"
-        },
-        {
-          "at": "Neutral",
-          "date": "Mar 20 (Sat)",
-          "location": "Austin, Texas",
-          "opponent": "NCAA Division I Swimming & Diving Championships",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "NCAA Division I Swimming & Diving Championships"
         }
       ],
       "failure_count": 0,
@@ -4648,61 +1918,11 @@
     "Women's Tennis": {
       "events": [
         {
-          "at": "Neutral",
-          "date": "Sep 19 (Sat)",
-          "location": "Cary, N.C.",
-          "opponent": "ITA All American Championships",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": ""
-        },
-        {
-          "at": "Neutral",
-          "date": "Oct 3 (Sat)",
-          "location": "Morgantown, W.Va",
-          "opponent": "Martha Thorn Invitational",
-          "result": "N 0-0",
-          "status": "",
-          "time": "",
-          "tournament": ""
-        },
-        {
-          "at": "Neutral",
-          "date": "Oct 10 (Sat)",
-          "location": "Williamsburg, Va.",
-          "opponent": "ITA Women's Hall of Fame Tournament",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Oct 15 (Thu)",
           "location": "Lynchburg, Va. (Liberty Tennis Complex)",
           "opponent": "ITA Atlantic Regional",
           "result": "N -",
-          "status": "",
-          "time": "",
-          "tournament": ""
-        },
-        {
-          "at": "Neutral",
-          "date": "Oct 30 (Fri)",
-          "location": "Spartanburg, S.C.",
-          "opponent": "Wofford Invite",
-          "result": "N -",
-          "status": "",
-          "time": "",
-          "tournament": ""
-        },
-        {
-          "at": "Neutral",
-          "date": "Nov 5 (Thu)",
-          "location": "",
-          "opponent": "ITA Conference Masters",
-          "result": "-",
           "status": "",
           "time": "",
           "tournament": ""
@@ -4715,46 +1935,6 @@
     },
     "Women's Volleyball": {
       "events": [
-        {
-          "at": "Neutral",
-          "date": "Aug 28 (Fri)",
-          "location": "Johnson City, Tenn.",
-          "opponent": "Auburn",
-          "result": "L 0-3",
-          "status": "",
-          "time": "10:00 AM ET",
-          "tournament": "ETSU Tournament"
-        },
-        {
-          "at": "Neutral",
-          "date": "Aug 29 (Sat)",
-          "location": "Johnson City, Tenn.",
-          "opponent": "Akron",
-          "result": "W 3-1",
-          "status": "",
-          "time": "10:00 AM ET",
-          "tournament": "ETSU Tournament"
-        },
-        {
-          "at": "Away",
-          "date": "Aug 29 (Sat)",
-          "location": "Johnson City, Tenn.",
-          "opponent": "ETSU",
-          "result": "W 3-2",
-          "status": "",
-          "time": "4:00 PM ET",
-          "tournament": "ETSU Tournament"
-        },
-        {
-          "at": "Away",
-          "date": "Sep 1 (Tue)",
-          "location": "Charlottesville, Va.",
-          "opponent": "Virginia",
-          "result": "L 1-3",
-          "status": "",
-          "time": "6:00 PM ET",
-          "tournament": ""
-        },
         {
           "at": "Home",
           "date": "Sep 4 (Fri)",
@@ -4774,46 +1954,6 @@
           "status": "",
           "time": "2:00 PM ET",
           "tournament": "Liberty Mountain Madness"
-        },
-        {
-          "at": "Away",
-          "date": "Sep 8 (Tue)",
-          "location": "Radford, Va.",
-          "opponent": "Radford",
-          "result": "W 3-0",
-          "status": "",
-          "time": "6:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Neutral",
-          "date": "Sep 11 (Fri)",
-          "location": "Hempstead, N.Y.",
-          "opponent": "Army",
-          "result": "L 0-3",
-          "status": "",
-          "time": "12:00 PM ET",
-          "tournament": "Hofstra Tournament"
-        },
-        {
-          "at": "Away",
-          "date": "Sep 11 (Fri)",
-          "location": "Hempstead, N.Y.",
-          "opponent": "Hofstra",
-          "result": "W 3-2",
-          "status": "",
-          "time": "4:00 PM ET",
-          "tournament": "Hofstra Tournament"
-        },
-        {
-          "at": "Neutral",
-          "date": "Sep 12 (Sat)",
-          "location": "Hempstead, N.Y.",
-          "opponent": "Fairfield",
-          "result": "W 3-1",
-          "status": "",
-          "time": "1:00 PM ET",
-          "tournament": "Hofstra Tournament"
         },
         {
           "at": "Home",
@@ -4856,26 +1996,6 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Oct 2 (Fri)",
-          "location": "Jacksonville, Ala.",
-          "opponent": "Jacksonville State",
-          "result": "-",
-          "status": "",
-          "time": "7:00 PM ET/6:00 PM CT",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Oct 3 (Sat)",
-          "location": "Jacksonville, Ala.",
-          "opponent": "Jacksonville State",
-          "result": "-",
-          "status": "",
-          "time": "1:00 PM ET/12:00 PM CT",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Oct 9 (Fri)",
           "location": "Lynchburg, Va. (Liberty Arena)",
@@ -4890,26 +2010,6 @@
           "date": "Oct 10 (Sat)",
           "location": "Lynchburg, Va. (Liberty Arena)",
           "opponent": "New Mexico State",
-          "result": "-",
-          "status": "",
-          "time": "1:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Oct 16 (Fri)",
-          "location": "Miami, Fla.",
-          "opponent": "FIU",
-          "result": "-",
-          "status": "",
-          "time": "6:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Oct 17 (Sat)",
-          "location": "Miami, Fla.",
-          "opponent": "FIU",
           "result": "-",
           "status": "",
           "time": "1:00 PM ET",
@@ -4936,46 +2036,6 @@
           "tournament": ""
         },
         {
-          "at": "Away",
-          "date": "Oct 30 (Fri)",
-          "location": "Kennesaw, Ga.",
-          "opponent": "Kennesaw State",
-          "result": "-",
-          "status": "",
-          "time": "6:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Oct 31 (Sat)",
-          "location": "Kennesaw, Ga.",
-          "opponent": "Kennesaw State",
-          "result": "-",
-          "status": "",
-          "time": "1:00 PM ET",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Nov 6 (Fri)",
-          "location": "Bowling Green, Ky.",
-          "opponent": "Western Kentucky",
-          "result": "-",
-          "status": "",
-          "time": "7:00 PM ET/6:00 PM CT",
-          "tournament": ""
-        },
-        {
-          "at": "Away",
-          "date": "Nov 7 (Sat)",
-          "location": "Bowling Green, Ky.",
-          "opponent": "Western Kentucky",
-          "result": "-",
-          "status": "",
-          "time": "2:00 PM ET/1:00 PM CT",
-          "tournament": ""
-        },
-        {
           "at": "Home",
           "date": "Nov 12 (Thu)",
           "location": "Lynchburg, Va. (Liberty Arena)",
@@ -4994,36 +2054,6 @@
           "status": "",
           "time": "3:00 PM ET",
           "tournament": ""
-        },
-        {
-          "at": "Neutral",
-          "date": "Nov 20 (Fri)",
-          "location": "Bowling Green, Ky.",
-          "opponent": "Conference USA Volleyball Championship",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Conference USA Volleyball Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "Nov 21 (Sat)",
-          "location": "Bowling Green, Ky.",
-          "opponent": "Conference USA Volleyball Championship",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Conference USA Volleyball Championship"
-        },
-        {
-          "at": "Neutral",
-          "date": "Nov 22 (Sun)",
-          "location": "Bowling Green, Ky.",
-          "opponent": "Conference USA Volleyball Championship",
-          "result": "-",
-          "status": "",
-          "time": "",
-          "tournament": "Conference USA Volleyball Championship"
         }
       ],
       "failure_count": 0,
@@ -5032,5 +2062,5 @@
       "url": "https://libertyflames.com/sports/womens-volleyball/schedule/text"
     }
   },
-  "version": 1
+  "version": 2
 }
