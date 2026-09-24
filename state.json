@@ -590,8 +590,8 @@
           "tournament": ""
         }
       ],
-      "failure_count": 1,
-      "last_error": "HTTPSConnectionPool(host='libertyflames.com', port=443): Read timed out. (read timeout=30)",
+      "failure_count": 0,
+      "last_error": "",
       "schedule_label": "2026",
       "url": "https://libertyflames.com/sports/football/schedule/text"
     },
