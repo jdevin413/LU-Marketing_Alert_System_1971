@@ -1027,6 +1027,16 @@
           "status": "",
           "time": "3:00 PM",
           "tournament": ""
+        },
+        {
+          "at": "Home",
+          "date": "Mar 5 (Fri)",
+          "location": "Lynchburg, VA (Men's Lacrosse Field)",
+          "opponent": "Virginia Tech",
+          "result": "-",
+          "status": "",
+          "time": "7:00 PM",
+          "tournament": ""
         }
       ],
       "failure_count": 0,
