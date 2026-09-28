@@ -1017,7 +1017,18 @@
       "url": "https://libertyflames.com/sports/mens-golf/schedule/text"
     },
     "Men's Lacrosse (Club)": {
-      "events": [],
+      "events": [
+        {
+          "at": "Home",
+          "date": "Feb 27 (Sat)",
+          "location": "Lynchburg, VA (Men's Lacrosse Field)",
+          "opponent": "University of Connecticut",
+          "result": "-",
+          "status": "",
+          "time": "3:00 PM",
+          "tournament": ""
+        }
+      ],
       "failure_count": 0,
       "last_error": "",
       "schedule_label": "2026-27",
