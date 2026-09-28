@@ -1047,6 +1047,56 @@
           "status": "",
           "time": "7:00 PM",
           "tournament": ""
+        },
+        {
+          "at": "Home",
+          "date": "Apr 2 (Fri)",
+          "location": "Lynchburg, VA (Men's Lacrosse Field)",
+          "opponent": "University of Florida",
+          "result": "-",
+          "status": "",
+          "time": "11:59 PM",
+          "tournament": ""
+        },
+        {
+          "at": "Home",
+          "date": "Apr 16 (Fri)",
+          "location": "Lynchburg, VA (Men's Lacrosse Field)",
+          "opponent": "University of Tennessee",
+          "result": "-",
+          "status": "",
+          "time": "7:00 PM",
+          "tournament": ""
+        },
+        {
+          "at": "Home",
+          "date": "Apr 18 (Sun)",
+          "location": "Lynchburg, VA (Men's Lacrosse Field)",
+          "opponent": "James Madison University",
+          "result": "-",
+          "status": "",
+          "time": "3:00 PM",
+          "tournament": ""
+        },
+        {
+          "at": "Home",
+          "date": "May 1 (Sat)",
+          "location": "Lynchburg, VA",
+          "opponent": "ALC Playoffs",
+          "result": "-",
+          "status": "",
+          "time": "TBA",
+          "tournament": ""
+        },
+        {
+          "at": "Home",
+          "date": "May 10 (Mon)",
+          "location": "Richmond. VA",
+          "opponent": "MCLA",
+          "result": "-",
+          "status": "",
+          "time": "",
+          "tournament": ""
         }
       ],
       "failure_count": 0,
