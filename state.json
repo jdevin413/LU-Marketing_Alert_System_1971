@@ -1170,11 +1170,31 @@
         {
           "at": "Home",
           "date": "Nov 5 (Thu)",
-          "location": "Lynchburg, Va. (Osborne Stadium)",
+          "location": "",
           "opponent": "Southern Conference",
           "result": "-",
           "status": "",
-          "time": "",
+          "time": "TBA",
+          "tournament": "SoCon Men's Soccer Championship"
+        },
+        {
+          "at": "Home",
+          "date": "Nov 8 (Sun)",
+          "location": "",
+          "opponent": "Southern Conference",
+          "result": "-",
+          "status": "",
+          "time": "TBA",
+          "tournament": "SoCon Men's Soccer Championship"
+        },
+        {
+          "at": "Home",
+          "date": "Nov 13 (Fri)",
+          "location": "",
+          "opponent": "Southern Conference",
+          "result": "-",
+          "status": "",
+          "time": "TBA",
           "tournament": "SoCon Men's Soccer Championship"
         }
       ],
