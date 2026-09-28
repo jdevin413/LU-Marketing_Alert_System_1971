@@ -1037,6 +1037,16 @@
           "status": "",
           "time": "7:00 PM",
           "tournament": ""
+        },
+        {
+          "at": "Home",
+          "date": "Mar 23 (Tue)",
+          "location": "Lynchburg, VA (Men's Lacrosse Field)",
+          "opponent": "University of New Hampshire",
+          "result": "-",
+          "status": "",
+          "time": "7:00 PM",
+          "tournament": ""
         }
       ],
       "failure_count": 0,
