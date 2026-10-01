@@ -5,6 +5,10 @@
       "initialized": true,
       "last_error": "",
       "seen_urls": [
+        "https://libertyflames.com/news/2026/10/1/mens-golf-liberty-golf-to-host-homecoming-weekend-golf-tournament",
+        "https://libertyflames.com/news/2026/10/1/womens-soccer-liberty-sets-off-for-pivotal-cusa-road-trip",
+        "https://libertyflames.com/news/2026/10/1/mens-basketball-2026-27-liberty-flames-mens-basketball-mini-plans-available",
+        "https://libertyflames.com/news/2026/10/1/field-hockey-no-17-lady-flames-to-square-off-with-commonwealth-foes-odu-richmond",
         "https://libertyflames.com/news/2026/9/30/mens-golf-krahn-named-cusa-mens-golfer-of-the-week",
         "https://libertyflames.com/news/2026/9/30/womens-volleyball-lady-flames-travel-to-jax-state-for-weekend-matches",
         "https://libertyflames.com/news/2026/9/30/womens-swimming-diving-to-face-virginia-tech-penn-state-in-christiansburg",
@@ -634,12 +638,12 @@
       "events": [
         {
           "at": "Home",
-          "date": "Nov 6 (Fri)",
+          "date": "Nov 7 (Sat)",
           "location": "Lynchburg, Va. (Liberty Arena)",
           "opponent": "Boyce",
           "result": "-",
           "status": "",
-          "time": "",
+          "time": "2:00 PM ET",
           "tournament": ""
         },
         {
