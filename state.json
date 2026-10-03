@@ -5,6 +5,8 @@
       "initialized": true,
       "last_error": "",
       "seen_urls": [
+        "https://libertyflames.com/news/2026/10/3/womens-swimming-diving-lady-flames-defeat-penn-state-at-virginia-tech-tri-meet",
+        "https://libertyflames.com/news/2026/10/3/womens-volleyball-lady-flames-sweep-gamecocks-for-2nd-straight-day",
         "https://libertyflames.com/news/2026/10/3/football-flames-run-past-delaware-to-open-cusa-play-with-30-14-win",
         "https://libertyflames.com/news/2026/10/2/womens-swimming-diving-liberty-leads-penn-state-trails-virginia-tech-after-day-1",
         "https://libertyflames.com/news/2026/10/2/womens-volleyball-liberty-earns-3-0-sweep-at-jax-state",
@@ -1164,7 +1166,7 @@
           "date": "Oct 3 (Sat)",
           "location": "Lynchburg, Va. (Osborne Stadium)",
           "opponent": "Mercer",
-          "result": "-",
+          "result": "W 3-0",
           "status": "",
           "time": "1:00 PM ET",
           "tournament": ""
