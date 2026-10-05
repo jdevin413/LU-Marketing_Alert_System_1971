@@ -1,247 +1,145 @@
-801
-802
-803
-804
-805
-806
-807
-808
-809
-810
-811
-812
-813
-814
-815
-816
-817
-818
-819
-820
-821
-822
-823
-824
-825
-826
-827
-828
-829
-830
-831
-832
-833
-834
-835
-836
-837
-838
-839
-840
-841
-842
-843
-844
-845
-846
-847
-848
-849
-850
-851
-852
-853
-854
-855
-856
-857
-858
-859
-860
-861
-862
-863
-864
-865
-866
-867
-868
-869
-870
-871
-872
-873
-874
-875
-876
-877
-878
-879
-880
-881
-882
-883
-884
-885
-886
-887
-888
-889
-890
-891
-892
-893
-894
-895
-896
-897
-898
-899
-900
-901
-902
-903
-904
-905
-906
-907
-908
-909
-910
-911
-912
-913
-914
-915
-916
-917
-918
-919
-920
-921
-922
-923
-924
-                        "kind": new.status,
-                        "opponent": new.opponent,
-                        "date": new.date,
-                        "detail": f"Official schedule status: {new.status.title()}",
-                        "location": new.location,
-                        "priority": 5 if new.status in {"CANCELED", "POSTPONED", "SUSPENDED"} else 4,
-                    })
-
-            if len(alerts) > 20:
-                print(f"WARNING {sport}: suppressed {len(alerts)} alerts (safety threshold)", file=sys.stderr)
-                alerts = []
-
-            for alert in alerts:
-                print(f"ALERT {sport}: {alert['kind']} — {alert.get('opponent', '')} — {alert.get('detail', '')}")
-                schedule_alerted_keys.add((sport, normalized_opponent(alert.get("opponent", ""))))
-                if topic:
-                    send_ntfy(session, topic, alert, url)
-                else:
-                    print("  NTFY_TOPIC is not set; alert logged but not pushed", file=sys.stderr)
-                total_alerts += 1
-        else:
-            print(f"BASELINE {sport}: saved {len(new_events)} home events")
-
-        state["sources"][sport] = {
-            "url": url,
-            "schedule_label": new_label,
-            "failure_count": 0,
-            "last_error": "",
-            "events": [asdict(e) for e in new_events],
-        }
-        time.sleep(0.20)
-
-    # ----- Phase 2: official Liberty news archives (early warning) -----
-    for source_name, archive_url, base_url in NEWS_SOURCES:
-        old_news = state["news"].get(source_name, {})
-        seen_urls = list(old_news.get("seen_urls", []))
-        initialized = bool(old_news.get("initialized", False))
-        try:
-            items = fetch_archive_items(session, archive_url, base_url)
-        except Exception as exc:
-            news_errors += 1
-            print(f"NEWS ERROR {source_name}: {exc}", file=sys.stderr)
-            # Optional layer: preserve its prior state and continue without affecting schedules.
-            state["news"][source_name] = {
-                **old_news,
-                "archive_url": archive_url,
-                "last_error": clean(str(exc))[:300],
-            }
-            continue
-
-        current_urls = [item.url for item in items]
-        if not initialized:
-            # Silent one-time baseline so installing Phase 2 does not alert on old stories.
-            state["news"][source_name] = {
-                "archive_url": archive_url,
-                "initialized": True,
-                "last_error": "",
-                "seen_urls": merge_seen_urls(current_urls, seen_urls),
-            }
-            print(f"NEWS BASELINE {source_name}: saved {len(current_urls)} current stories")
-            continue
-
-        unseen = [item for item in items if item.url not in set(seen_urls)]
-        processed_urls: list[str] = []
-        # Archives are newest-first; process oldest unseen story first for sensible alert order.
-        for item in reversed(unseen):
-            try:
-                title, body = fetch_article(session, item)
-            except Exception as exc:
-                news_errors += 1
-                print(f"NEWS ARTICLE ERROR {item.url}: {exc}", file=sys.stderr)
-                continue  # leave unseen so the next 10-minute run retries it
-
-            processed_urls.append(item.url)
-            disruption = detect_news_disruption(title, body)
-            if not disruption:
-                continue
-
-            match = match_news_to_home_event(item, f"{title} {body}", home_events)
-            if not match:
-                print(f"NEWS IGNORE {source_name}: disruption language but no upcoming home-event match — {title}")
-                continue
-
-            sport, event = match
-            event_key = (sport, normalized_opponent(event.opponent))
-            if event_key in schedule_alerted_keys:
-                print(f"NEWS DUPLICATE SUPPRESSED {sport}: schedule already alerted this run — {title}")
-                continue
-
-            alert = {
-                "sport": sport,
-                "kind": "EARLY WARNING",
-                "opponent": event.opponent,
-                "date": event.date,
-                "detail": f"Official {source_name} story contains {disruption.lower()} language: {title}",
-                "location": event.location,
-                "priority": 5,
-            }
-            print(f"NEWS ALERT {sport}: {disruption} — {event.opponent} — {title}")
-            if topic:
-                send_ntfy(session, topic, alert, item.url)
-            else:
-                print("  NTFY_TOPIC is not set; news alert logged but not pushed", file=sys.stderr)
-            total_alerts += 1
-
-        state["news"][source_name] = {
-            "archive_url": archive_url,
-            "initialized": True,
-            "last_error": "",
-            "seen_urls": merge_seen_urls(processed_urls, seen_urls),
-        }
-        time.sleep(0.20)
-
-    save_state(state)
-    print(
-        f"Done. alerts={total_alerts}, schedule_errors={source_errors}, "
-        f"news_errors={news_errors}, schedule_sources={len(SOURCES)}, news_sources={len(NEWS_SOURCES)}"
-    )
-    return 0
-
-
-if __name__ == "__main__":
-    raise SystemExit(main())
+--- /mnt/data/files/monitor.py	2026-10-05 12:34:31.600109061 +0000
++++ /mnt/data/monitor_v3.py	2026-10-05 12:35:55.114825372 +0000
+@@ -19,7 +19,7 @@
+ 
+ STATE_FILE = Path(os.getenv("STATE_FILE", "state.json"))
+ TIMEOUT = 30
+-USER_AGENT = "LibertyAthleticsScheduleMonitor/2.0 (+personal schedule-change notifier)"
++USER_AGENT = "LibertyAthleticsScheduleMonitor/2.1 (+personal schedule-change notifier)"
+ 
+ # Liberty's NCAA menu has 18 sponsored teams; Cross Country and Track & Field each
+ # share one schedule page for the men's and women's programs, so 16 NCAA URLs cover all 18.
+@@ -46,6 +46,15 @@
+ ]
+ 
+ 
++# Sidearm's /schedule/text view can omit disruption labels that are visible on the
++# normal schedule page. For Club Sports, check the normal page too and let an
++# explicit status there override a blank status from the text feed.
++STATUS_FALLBACK_URLS = {
++    "Men's D1 Hockey (Club)": "https://libertyclubsports.com/sports/mens-ice-hockey/schedule",
++    "Men's Lacrosse (Club)": "https://libertyclubsports.com/sports/mens-lacrosse/schedule",
++}
++
++
+ # Phase 2: official Liberty story archives. These are an early-warning layer only.
+ # A news-source failure never prevents the schedule monitor from running.
+ NEWS_SOURCES = [
+@@ -249,6 +258,97 @@
+     return schedule_label, events
+ 
+ 
++def _event_date_tokens(event: Event) -> list[str]:
++    """Return compact date tokens useful for matching a visual schedule card."""
++    text = clean(event.date)
++    tokens = [text.casefold()] if text else []
++    match = re.search(r"\b([A-Za-z]{3,9})\.?\s+(\d{1,2})\b", text)
++    if match:
++        month_lookup = {
++            "jan": "january", "january": "january",
++            "feb": "february", "february": "february",
++            "mar": "march", "march": "march",
++            "apr": "april", "april": "april",
++            "may": "may",
++            "jun": "june", "june": "june",
++            "jul": "july", "july": "july",
++            "aug": "august", "august": "august",
++            "sep": "september", "sept": "september", "september": "september",
++            "oct": "october", "october": "october",
++            "nov": "november", "november": "november",
++            "dec": "december", "december": "december",
++        }
++        month = month_lookup.get(match.group(1).casefold())
++        day = int(match.group(2))
++        if month:
++            tokens.extend([f"{month} {day}", f"{month[:3]} {day}"])
++    return list(dict.fromkeys(t for t in tokens if t))
++
++
++def enrich_statuses_from_visual_schedule(html: str, events: list[Event]) -> int:
++    """Fill blank event statuses from explicit labels on Sidearm's visual schedule.
++
++    The /schedule/text table has occasionally left Result as '-' even when the
++    visual schedule card says CANCELED. We search around opponent text and only
++    apply an explicit disruption label found in a nearby ancestor that also looks
++    like the same dated event. Existing text-feed statuses always win.
++    """
++    soup = BeautifulSoup(html, "html.parser")
++    changed = 0
++
++    for event in events:
++        if event.status:
++            continue
++        opponent_key = normalized_opponent(event.opponent)
++        if not opponent_key:
++            continue
++        date_tokens = _event_date_tokens(event)
++        best_status = ""
++
++        for node in soup.find_all(string=True):
++            node_text = clean(str(node))
++            if not node_text or opponent_key not in normalized_opponent(node_text):
++                continue
++
++            parent = node.parent
++            for _ in range(7):
++                if parent is None:
++                    break
++                block_text = clean(parent.get_text(" ", strip=True))
++                status = extract_status(block_text)
++                if status:
++                    block_fold = block_text.casefold()
++                    # Require the opponent plus the event date when possible. This
++                    # prevents a cancellation elsewhere on the page from bleeding
++                    # into the wrong event.
++                    if opponent_key in normalized_opponent(block_text) and (
++                        not date_tokens or any(token in block_fold for token in date_tokens)
++                    ):
++                        best_status = status
++                        break
++                parent = parent.parent
++            if best_status:
++                break
++
++        if best_status:
++            event.status = best_status
++            changed += 1
++
++    return changed
++
++
++def apply_status_fallback(
++    session: requests.Session, sport: str, events: list[Event]
++) -> tuple[str, int]:
++    """Use the visual Club Sports schedule as a non-fatal status fallback."""
++    fallback_url = STATUS_FALLBACK_URLS.get(sport, "")
++    if not fallback_url or not events:
++        return "", 0
++    response = session.get(fallback_url, timeout=TIMEOUT)
++    response.raise_for_status()
++    return fallback_url, enrich_statuses_from_visual_schedule(response.text, events)
++
++
+ def fetch_events(session: requests.Session, url: str) -> tuple[str, list[Event]]:
+     response = session.get(url, timeout=TIMEOUT)
+     response.raise_for_status()
+@@ -632,6 +732,19 @@
+         try:
+             new_label, all_new_events = fetch_events(session, url)
+             new_events = [event for event in all_new_events if is_home_event(event)]
++            fallback_url = STATUS_FALLBACK_URLS.get(sport, "")
++            if fallback_url:
++                try:
++                    _, enriched = apply_status_fallback(session, sport, new_events)
++                    if enriched:
++                        print(f"STATUS FALLBACK {sport}: enriched {enriched} event(s) from {fallback_url}")
++                except Exception as fallback_exc:
++                    # The text schedule remains authoritative for dates/times and
++                    # must keep working even if the visual page temporarily fails.
++                    print(
++                        f"STATUS FALLBACK WARNING {sport}: {fallback_exc}",
++                        file=sys.stderr,
++                    )
+             home_events[sport] = (new_label, new_events)
+         except Exception as exc:
+             source_errors += 1
