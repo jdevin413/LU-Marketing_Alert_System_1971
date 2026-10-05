@@ -3,7 +3,7 @@ name: Liberty Athletics Schedule Monitor
 on:
   schedule:
     # Every 10 minutes, offset from the top of the hour.
-   - cron: '4,14,24,34,44,54 * * * *'
+    - cron: '4,14,24,34,44,54 * * * *'
   workflow_dispatch:
     inputs:
       test_mode:
