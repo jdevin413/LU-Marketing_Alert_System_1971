@@ -3,6 +3,10 @@ name: Liberty Athletics Schedule Monitor
 on:
   schedule:
     - cron: '7,17,27,37,47,57 * * * *'
+
+  repository_dispatch:
+    types: [external_monitor]
+
   workflow_dispatch:
     inputs:
       test_mode:
@@ -56,7 +60,7 @@ jobs:
         run: python monitor.py
 
       - name: Check Liberty schedules and official news
-        if: github.event_name == 'schedule'
+        if: github.event_name == 'schedule' || github.event_name == 'repository_dispatch'
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           TEST_NOTIFICATION: 'false'
@@ -64,18 +68,19 @@ jobs:
         run: python monitor.py
 
       - name: Save updated monitor state
-        if: github.event_name == 'schedule'
+        if: github.event_name == 'schedule' || github.event_name == 'repository_dispatch'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # Preserve the freshly generated state, then move onto the newest
-          # version of the branch before committing it. This prevents stale
-          # scheduled/re-run jobs from failing with a non-fast-forward push.
+
           cp state.json /tmp/liberty-state.json
+
           git fetch origin "${GITHUB_REF_NAME}"
           git reset --hard "origin/${GITHUB_REF_NAME}"
+
           cp /tmp/liberty-state.json state.json
           git add state.json
+
           if git diff --cached --quiet; then
             echo "No monitor state changes to save."
           else
